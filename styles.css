@@ -228,7 +228,7 @@ body {
 }
 
 .first-set-interests ul {
-    margin-left: 115px;
+    margin-left: 80px;
     margin-top: 10px;
     line-height: 30px;
     display: inline-block;
@@ -257,7 +257,7 @@ body {
 .goals-img {
     float: right;
     margin-right: 70px;
-    margin-top: -40px;
+    margin-top: -35px;
 }
 
 .goals-img img {
@@ -515,160 +515,198 @@ body {
     margin-left: 110px;
 }
 
+.contacts-cover {
+    background-image: url("image/cover.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 1260px;
+    max-width: 90%;
+    padding: 140px 30px;
+    margin: 70px auto;
+    border-radius: 10px;
+    border: 5px solid rgb(158, 158, 158);
+}
+
+.contacts-img {
+    float: right;
+    margin-right: 70px;
+    margin-top: -50px;
+}
+
+.contacts-img img {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: rgb(81, 79, 79);
+    border-width: 5px;
+}
+
+.contacts-cover p {
+    width: 50%;
+    margin-top: 30px;
+    margin-left: 70px;
+    line-height: 30px;
+    word-spacing: 1px;
+    text-align: justify;
+}
+
 .my-contacts {
-    text-align: center;
-    margin-top: 80px;
+    width: 1260px;
+    max-width: 90%;
+    margin: 70px auto;
 }
 
 #h3-contacts {
+    text-align: center;
     font-size: 25px;
     background-color: black;
     border-top: 2px solid rgba(255, 255, 255, 0.596);
     border-bottom: 2px solid rgba(255, 255, 255, 0.596);
-    margin-top: 90px;
-}
-
-.phone-number {
-    margin-top: 80px;
-    width: 40%;
-    height: 140px;
-    margin-left: auto;
-    margin-right: auto;
     border-right: 2px solid rgba(255, 255, 255, 0.596);
     border-left: 2px solid rgba(255, 255, 255, 0.596);
-    border-bottom: 2px solid rgba(255, 255, 255, 0.596);
-    background-color: rgb(57, 56, 56);
-}
-
-.phone-number h3 {
-    background-color: black;
-    border-top: 2px solid rgba(255, 255, 255, 0.596);
-    border-bottom: 2px solid rgba(255, 255, 255, 0.596);
-}
-
-.phone-number p {
-    margin-top: 50px;
-    text-align: center;
-    word-spacing: 1px;
-}
-
-.facebook {
-    margin-top: 80px;
-    width: 40%;
-    height: 140px;
-    margin-left: auto;
-    margin-right: auto;
-    border-right: 2px solid rgba(255, 255, 255, 0.596);
-    border-left: 2px solid rgba(255, 255, 255, 0.596);
-    border-bottom: 2px solid rgba(255, 255, 255, 0.596);
-    background-color: rgb(57, 56, 56);
-}
-
-.facebook h3 {
-    background-color: black;
-    border-top: 2px solid rgba(255, 255, 255, 0.596);
-    border-bottom: 2px solid rgba(255, 255, 255, 0.596);
-}
-
-.facebook p {
-    margin-top: 50px;
-    text-align: center;
-    word-spacing: 1px;
+    border-radius: 20px;
 }
 
 .email {
-    margin-top: 80px;
-    width: 40%;
-    height: 140px;
-    margin-left: auto;
-    margin-right: auto;
-    border-right: 2px solid rgba(255, 255, 255, 0.596);
-    border-left: 2px solid rgba(255, 255, 255, 0.596);
-    border-bottom: 2px solid rgba(255, 255, 255, 0.596);
-    background-color: rgb(57, 56, 56);
+    text-align: center;
+    margin-top: 120px;
+    width: 45%;
+    height: 180px;
+    margin-left: 450px;
 }
 
-.email h3 {
+.email-img {
+    float: left;
+    margin-top: 80px;
+    margin-left: 160px;
+}
+
+.email-img img {
+    width: 120px;
+    height: 120px;
+    border-radius: 100px;
+    border-color: rgb(81, 79, 79);
+    border-style: solid;
+    border-width: 5.5px;
+}
+
+.phone-number h3, .facebook h3,
+.email h3, .instagram h3,
+.messenger h3 {
+    padding: 5px;
     background-color: black;
+    border-radius: 20px;
     border-top: 2px solid rgba(255, 255, 255, 0.596);
     border-bottom: 2px solid rgba(255, 255, 255, 0.596);
+    border-right: 2px solid rgba(255, 255, 255, 0.596);
+    border-left: 2px solid rgba(255, 255, 255, 0.596);
 }
 
-.email p {
-    margin-top: 50px;
+.phone-number {
     text-align: center;
-    word-spacing: 1px;
+    margin-top: 100px;
+    width: 45%;
+    height: 180px;
+    margin-left: 450px;
+}
+
+.phone-img {
+    float: left;
+    margin-top: 80px;
+    margin-left: 160px;
+}
+
+.phone-img img {
+    width: 120px;
+    height: 120px;
+    border-radius: 100px;
+    border-color: rgb(81, 79, 79);
+    border-style: solid;
+    border-width: 5.5px;
+}
+
+.facebook {
+    text-align: center;
+    margin-top: 100px;
+    width: 45%;
+    height: 180px;
+    margin-left: auto;
+    margin-right: 450px;
+}
+
+.facebook-img {
+    float: right;
+    margin-top: 70px;
+    margin-right: 160px;
+}
+
+.facebook-img img {
+    width: 120px;
+    height: 120px;
+    border-radius: 100px;
+    border-color: rgb(81, 79, 79);
+    border-style: solid;
+    border-width: 5.5px;
 }
 
 .instagram {
-    margin-top: 80px;
-    width: 40%;
-    height: 140px;
-    margin-left: auto;
-    margin-right: auto;
-    border-right: 2px solid rgba(255, 255, 255, 0.596);
-    border-left: 2px solid rgba(255, 255, 255, 0.596);
-    border-bottom: 2px solid rgba(255, 255, 255, 0.596);
-    background-color: rgb(57, 56, 56);
-}
-
-.instagram h3 {
-    background-color: black;
-    border-top: 2px solid rgba(255, 255, 255, 0.596);
-    border-bottom: 2px solid rgba(255, 255, 255, 0.596);
-}
-
-.instagram p {
-    margin-top: 50px;
     text-align: center;
-    word-spacing: 1px;
+    margin-top: 100px;
+    width: 45%;
+    height: 180px;
+    margin-left: auto;
+    margin-right: 450px;
+}
+
+.instagram-img {
+    float: right;
+    margin-top: 70px;
+    margin-right: 160px;
+}
+
+.instagram-img img {
+    width: 120px;
+    height: 120px;
+    border-radius: 100px;
+    border-color: rgb(81, 79, 79);
+    border-style: solid;
+    border-width: 5.5px;
 }
 
 .messenger {
-    margin-top: 80px;
-    width: 40%;
-    height: 140px;
+    text-align: center;
+    margin-top: 100px;
+    width: 45%;
+    height: 180px;
     margin-left: auto;
-    margin-right: auto;
-    border-right: 2px solid rgba(255, 255, 255, 0.596);
-    border-left: 2px solid rgba(255, 255, 255, 0.596);
-    border-bottom: 2px solid rgba(255, 255, 255, 0.596);
-    background-color: rgb(57, 56, 56);
+    margin-right: 450px;
 }
 
-.messenger h3 {
-    background-color: black;
-    border-top: 2px solid rgba(255, 255, 255, 0.596);
-    border-bottom: 2px solid rgba(255, 255, 255, 0.596);
+.messenger-img {
+    float: right;
+    margin-top: 70px;
+    margin-right: 160px;
 }
 
+.messenger-img img {
+    width: 120px;
+    height: 120px;
+    border-radius: 100px;
+    border-color: rgb(81, 79, 79);
+    border-style: solid;
+    border-width: 5.5px;
+}
+
+.phone-number p, .facebook p,
+.email p, .instragram p,
 .messenger p {
-    margin-top: 50px;
-    text-align: center;
-    word-spacing: 1px;
-}
-
-.telegram {
-    margin-top: 80px;
-    width: 40%;
-    height: 140px;
-    margin-left: auto;
+    width: 82%;
     margin-right: auto;
-    border-right: 2px solid rgba(255, 255, 255, 0.596);
-    border-left: 2px solid rgba(255, 255, 255, 0.596);
-    border-bottom: 2px solid rgba(255, 255, 255, 0.596);
-    background-color: rgb(57, 56, 56);
-}
-
-.telegram h3 {
-    background-color: black;
-    border-top: 2px solid rgba(255, 255, 255, 0.596);
-    border-bottom: 2px solid rgba(255, 255, 255, 0.596);
-}
-
-.telegram p {
-    margin-top: 50px;
-    text-align: center;
+    margin-left: auto;
+    margin-top: 25px;
+    line-height: 25px;
     word-spacing: 1px;
 }
 
