@@ -29,6 +29,19 @@ body {
     font-weight: bold;
 }
 
+.about-me-cover {
+    background-image: url("image/cover.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 1260px;
+    max-width: 90%;
+    padding: 60px 30px;
+    margin: 70px auto;
+    border-radius: 10px;
+    border: 5px solid rgb(158, 158, 158);
+}
+
 .prof-img {
     float: right;
     margin-right: 70px;
@@ -42,19 +55,6 @@ body {
     border-style: solid;
     border-color: rgb(81, 79, 79);
     border-width: 5px;
-}
-
-.about-me-cover {
-    background-image: url("image/cover.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 1260px;
-    max-width: 90%;
-    padding: 60px 30px;
-    margin: 70px auto;
-    border-radius: 10px;
-    border: 5px solid rgb(158, 158, 158);
 }
 
 .about-me-cover h3 {
@@ -241,30 +241,72 @@ body {
     display: inline-block;
 }
 
-.goals {
-    text-align: center;
-    margin-top: 80px;
+.goals-cover {
+    background-image: url("image/cover.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 1260px;
+    max-width: 90%;
+    padding: 125px 30px;
+    margin: 70px auto;
+    border-radius: 10px;
+    border: 5px solid rgb(158, 158, 158);
+}
+
+.goals-img {
+    float: right;
+    margin-right: 70px;
+    margin-top: -40px;
+}
+
+.goals-img img {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: rgb(81, 79, 79);
+    border-width: 5px;
+}
+
+.goals-cover p {
+    width: 50%;
+    margin-top: 30px;
+    margin-left: 70px;
+    line-height: 30px;
+    word-spacing: 1px;
+    text-align: justify;
+}
+
+.my-goals {
+    width: 1260px;
+    max-width: 90%;
+    margin: 70px auto;
 }
 
 #h3-goals {
+    text-align: center;
     font-size: 25px;
     background-color: black;
     border-top: 2px solid rgba(255, 255, 255, 0.596);
     border-bottom: 2px solid rgba(255, 255, 255, 0.596);
-    margin-top: 90px;
+    border-right: 2px solid rgba(255, 255, 255, 0.596);
+    border-left: 2px solid rgba(255, 255, 255, 0.596);
+    border-radius: 20px;
 }
 
 .travelling {
+    text-align: center;
     margin-top: 120px;
     width: 45%;
     height: 180px;
-    margin-left: 500px;
+    margin-left: 450px;
 }
 
 .travelling-img {
     float: left;
     margin-top: 80px;
-    margin-left: 120px;
+    margin-left: 100px;
 }
 
 .travelling-img img {
@@ -289,16 +331,18 @@ body {
 }
 
 .stable-life {
-    margin-top: 150px;
+    text-align: center;
+    margin-top: 160px;
     width: 45%;
     height: 180px;
-    margin-left: 120px;
+    margin-left: auto;
+    margin-right: 450px;
 }
 
 .stable-img {
     float: right;
-    margin-top: 130px;
-    margin-right: 130px;
+    margin-top: 140px;
+    margin-right: 100px;
 }
 
 .stable-img img {
@@ -311,16 +355,17 @@ body {
 }
 
 .business {
-    margin-top: 175px;;
+    text-align: center;
+    margin-top: 160px;
     width: 45%;
     height: 180px;
-    margin-left: 500px;
+    margin-left: 450px;
 }
 
 .business-img {
     float: left;
-    margin-top: 160px;
-    margin-left: 130px;
+    margin-top: 145px;
+    margin-left: 100px;
 }
 
 .business-img img {
@@ -333,16 +378,18 @@ body {
 }
 
 .house {
-    margin-top: 150px;
+    text-align: center;
+    margin-top: 160px;
     width: 45%;
     height: 180px;
-    margin-left: 110px;
+    margin-left: auto;
+    margin-right: 450px;
 }
 
 .house-img {
     float: right;
-    margin-top: 130px;
-    margin-right: 130px;
+    margin-top: 140px;
+    margin-right: 100px;
 }
 
 .house-img img {
@@ -355,18 +402,19 @@ body {
 }
 
 .provider {
+    text-align: center;
     margin-top: 160px;
     margin-bottom: 150px;
     width: 45%;
     height: 180px;
-    margin-left: 510px;
+    margin-left: 450px;
 
 }
 
 .provider-img {
     float: left;
     margin-top: 145px;
-    margin-left: 130px;
+    margin-left: 100px;
 }
 
 .provider-img img {
