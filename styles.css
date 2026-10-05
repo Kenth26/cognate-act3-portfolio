@@ -97,6 +97,7 @@ body {
     border-right: 2px solid rgba(255, 255, 255, 0.596);
     border-left: 2px solid rgba(255, 255, 255, 0.596);
     border-radius: 20px;
+    padding: 8px;
 }
 
 .dyci {
@@ -293,6 +294,7 @@ body {
     border-right: 2px solid rgba(255, 255, 255, 0.596);
     border-left: 2px solid rgba(255, 255, 255, 0.596);
     border-radius: 20px;
+    padding: 8px;
 }
 
 .travelling {
@@ -567,6 +569,7 @@ body {
     border-right: 2px solid rgba(255, 255, 255, 0.596);
     border-left: 2px solid rgba(255, 255, 255, 0.596);
     border-radius: 20px;
+    padding: 8px;
 }
 
 .email {
@@ -579,7 +582,7 @@ body {
 
 .email-img {
     float: left;
-    margin-top: 80px;
+    margin-top: 70px;
     margin-left: 160px;
 }
 
@@ -592,8 +595,8 @@ body {
     border-width: 5.5px;
 }
 
-.phone-number h3, .facebook h3,
-.email h3, .instagram h3,
+.email h3, .phone-number h3,
+.facebook h3, .instagram h3,
 .messenger h3 {
     padding: 5px;
     background-color: black;
@@ -614,7 +617,7 @@ body {
 
 .phone-img {
     float: left;
-    margin-top: 80px;
+    margin-top: 70px;
     margin-left: 160px;
 }
 
@@ -627,9 +630,27 @@ body {
     border-width: 5.5px;
 }
 
+.my-socials {
+    width: 1260px;
+    max-width: 90%;
+    margin: 78px auto;
+}
+
+#h3-socials {
+    text-align: center;
+    font-size: 25px;
+    background-color: black;
+    border-top: 2px solid rgba(255, 255, 255, 0.596);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.596);
+    border-right: 2px solid rgba(255, 255, 255, 0.596);
+    border-left: 2px solid rgba(255, 255, 255, 0.596);
+    border-radius: 20px;
+    padding: 8px;
+}
+
 .facebook {
     text-align: center;
-    margin-top: 100px;
+    margin-top: 120px;
     width: 45%;
     height: 180px;
     margin-left: auto;
@@ -662,7 +683,7 @@ body {
 
 .instagram-img {
     float: right;
-    margin-top: 70px;
+    margin-top: 80px;
     margin-right: 160px;
 }
 
@@ -686,7 +707,7 @@ body {
 
 .messenger-img {
     float: right;
-    margin-top: 70px;
+    margin-top: 80px;
     margin-right: 160px;
 }
 
