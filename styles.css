@@ -249,7 +249,7 @@ body {
     background-repeat: no-repeat;
     width: 1260px;
     max-width: 90%;
-    padding: 125px 30px;
+    padding: 124px 30px;
     margin: 70px auto;
     border-radius: 10px;
     border: 5px solid rgb(158, 158, 158);
@@ -258,7 +258,7 @@ body {
 .goals-img {
     float: right;
     margin-right: 70px;
-    margin-top: -35px;
+    margin-top: -34px;
 }
 
 .goals-img img {
@@ -524,7 +524,7 @@ body {
     background-repeat: no-repeat;
     width: 1260px;
     max-width: 90%;
-    padding: 140px 30px;
+    padding: 139px 30px;
     margin: 70px auto;
     border-radius: 10px;
     border: 5px solid rgb(158, 158, 158);
@@ -533,7 +533,7 @@ body {
 .contacts-img {
     float: right;
     margin-right: 70px;
-    margin-top: -50px;
+    margin-top: -49px;
 }
 
 .contacts-img img {
