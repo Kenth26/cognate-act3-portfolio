@@ -10,7 +10,6 @@ body {
 }
 
 .content-nav {
-    text-align: center;
     background-color: black;
     line-height: 30px;
     padding-top: 10px;
@@ -18,11 +17,13 @@ body {
     border-bottom: 2px solid;
 }
 
-.content-nav nav ul li {
-    display: inline;
+.content-nav nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
 }
 
-.content-nav ul li a {
+.content-nav nav ul li a {
     text-decoration: none;
     margin: 30px;
     color: white;
@@ -49,12 +50,13 @@ body {
 }
 
 .prof-img img {
-    width: 200px;
-    height: 200px;
+    width: 230px;
+    height: 220px;
     border-radius: 20px;
     border-style: solid;
     border-color: rgb(81, 79, 79);
     border-width: 5px;
+    object-fit: cover;
 }
 
 .about-me-cover h3 {
@@ -80,6 +82,22 @@ body {
     line-height: 30px;
     word-spacing: 1px;
     text-align: justify;
+}
+
+.socials {
+    display: flex;
+    margin-left: 65px;
+    margin-top: 25px;
+    gap: 50px;
+}
+
+.socials img {
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-color: rgb(158, 158, 158);
+    border-radius: 40px;
+    border-width: 5px;
 }
 
 .my-education {
@@ -121,6 +139,7 @@ body {
     border-color: rgb(81, 79, 79);
     border-style: solid;
     border-width: 5.5px;
+    object-fit: cover;
 }
 
 .dyci h3, .bmsi h3, .marcelo h3 {
@@ -155,6 +174,7 @@ body {
     border-color: rgb(81, 79, 79);
     border-style: solid;
     border-width: 5.5px;
+    object-fit: cover;
 }
 
 .bmsi {
@@ -179,6 +199,7 @@ body {
     border-color: rgb(81, 79, 79);
     border-style: solid;
     border-width: 5.5px;
+    object-fit: cover;
 }
 
 .dyci p, .marcelo p, .bmsi p {
@@ -191,55 +212,153 @@ body {
     word-spacing: 1px;
 }
 
-.my-interests {
-    margin-top: 80px;
+.my-certification {
+    width: 1260px;
+    max-width: 90%;
+    margin: 70px auto;
 }
 
-#h3-inter {
+#h3-cert {
+    text-align: center;
     font-size: 25px;
     background-color: black;
     border-top: 2px solid rgba(255, 255, 255, 0.596);
     border-bottom: 2px solid rgba(255, 255, 255, 0.596);
-    text-align: center;
-    margin-top: 90px;
-}
-
-.my-interests p {
-    text-align: center;
-    margin-top: 80px;
-}
-
-.first-set-interests, .second-set-interests {
-    background-color: rgb(57, 56, 56);
-    width: 50%;
-    height: 220px;
-    margin-left: auto;
-    margin-right: auto;
     border-right: 2px solid rgba(255, 255, 255, 0.596);
     border-left: 2px solid rgba(255, 255, 255, 0.596);
-    border-bottom: 2px solid rgba(255, 255, 255, 0.596);
+    border-radius: 20px;
+    padding: 8px;
 }
 
-.first-set-interests h3, .second-set-interests h3 {
+.certification {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.certification div {
+    margin-top: 50px;
     text-align: center;
-    margin-top: 90px;
+}
+
+.certification div img {
+    width: 300px;
+    height: 220px;
+    border-radius: 20px;
+    border-color: rgb(81, 79, 79);
+    border-style: solid;
+    border-width: 5.5px;
+    object-fit: cover;
+}
+
+.interests-cover {
+    background-image: url("image/cover.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 1260px;
+    max-width: 90%;
+    padding: 139px 30px;
+    margin: 70px auto;
+    border-radius: 10px;
+    border: 5px solid rgb(158, 158, 158);
+}
+
+.interests-img {
+    float: right;
+    margin-right: 70px;
+    margin-top: -49px;
+}
+
+.interests-img img {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: rgb(81, 79, 79);
+    border-width: 5px;
+    object-fit: cover;
+}
+
+.interests-cover p {
+    width: 50%;
+    margin-top: 30px;
+    margin-left: 70px;
+    line-height: 30px;
+    word-spacing: 1px;
+    text-align: justify;
+}
+
+.my-interests-personal {
+    width: 1260px;
+    max-width: 90%;
+    margin: 70px auto;
+}
+
+#h3-inter {
+    text-align: center;
+    font-size: 25px;
     background-color: black;
     border-top: 2px solid rgba(255, 255, 255, 0.596);
     border-bottom: 2px solid rgba(255, 255, 255, 0.596);
+    border-right: 2px solid rgba(255, 255, 255, 0.596);
+    border-left: 2px solid rgba(255, 255, 255, 0.596);
+    border-radius: 20px;
+    padding: 8px;
 }
 
-.first-set-interests ul {
-    margin-left: 80px;
-    margin-top: 10px;
-    line-height: 30px;
-    display: inline-block;
+.interests-personal {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }
 
-.second-set-interests ul {
-    margin-left: 70px;
-    margin-top: 10px;
-    line-height: 30px;
-    display: inline-block;
+.interests-personal div {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.interests-personal div img {
+    width: 270px;
+    height: 250px;
+    border-radius: 20px;
+    border-color: rgb(81, 79, 79);
+    border-style: solid;
+    border-width: 5.5px;
+    object-fit: cover;
+}
+
+.my-interests-career {
+    width: 1260px;
+    max-width: 90%;
+    margin: 70px auto;
+}
+
+.interests-career {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.interests-career div {
+    grid-column: span 2;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.interests-career div:nth-child(4) {
+    grid-column: 2 / span 2;
+}
+
+.interests-career div:nth-child(5) {
+    grid-column: 4 / span 2;
+}
+
+.interests-career div img {
+    width: 270px;
+    height: 250px;
+    border-radius: 20px;
+    border-color: rgb(81, 79, 79);
+    border-style: solid;
+    border-width: 5.5px;
+    object-fit: cover;
 }
 
 .goals-cover {
@@ -318,6 +437,7 @@ body {
     border-color: rgb(81, 79, 79);
     border-style: solid;
     border-width: 5.5px;
+    object-fit: cover;
 }
 
 .travelling h3, .stable-life h3,
@@ -354,6 +474,7 @@ body {
     border-color: rgb(81, 79, 79);
     border-style: solid;
     border-width: 5.5px;
+    object-fit: cover;
 }
 
 .business {
@@ -377,6 +498,7 @@ body {
     border-color: rgb(81, 79, 79);
     border-style: solid;
     border-width: 5.5px;
+    object-fit: cover;
 }
 
 .house {
@@ -401,6 +523,7 @@ body {
     border-color: rgb(81, 79, 79);
     border-style: solid;
     border-width: 5.5px;
+    object-fit: cover;
 }
 
 .provider {
@@ -426,6 +549,7 @@ body {
     border-color: rgb(81, 79, 79);
     border-style: solid;
     border-width: 5.5px;
+    object-fit: cover;
 }
 
 .travelling p, .stable-life p,
@@ -440,81 +564,116 @@ body {
     word-spacing: 1px;
 }
 
-.my-skills {
-    margin-top: 80px;
+.skills-cover {
+    background-image: url("image/cover.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 1260px;
+    max-width: 90%;
+    padding: 139px 30px;
+    margin: 70px auto;
+    border-radius: 10px;
+    border: 5px solid rgb(158, 158, 158);
+    object-fit: cover;
+}
+
+.skills-img {
+    float: right;
+    margin-right: 70px;
+    margin-top: -49px;
+}
+
+.skills-img img {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: rgb(81, 79, 79);
+    border-width: 5px;
+    object-fit: cover;
+}
+
+.skills-cover p {
+    width: 50%;
+    margin-top: 30px;
+    margin-left: 70px;
+    line-height: 30px;
+    word-spacing: 1px;
+    text-align: justify;
+}
+
+.my-skills-career {
+    width: 1260px;
+    max-width: 90%;
+    margin: 70px auto;
 }
 
 #h3-skills {
+    text-align: center;
     font-size: 25px;
     background-color: black;
     border-top: 2px solid rgba(255, 255, 255, 0.596);
     border-bottom: 2px solid rgba(255, 255, 255, 0.596);
-    margin-top: 90px;
-    text-align: center;
-}
-
-.my-skills p {
-    text-align: center;
-}
-
-.first-set-skills {
-    background-color: rgb(57, 56, 56);
-    width: 60%;
-    height: 220px;
-    margin-left: auto;
-    margin-right: auto;
     border-right: 2px solid rgba(255, 255, 255, 0.596);
     border-left: 2px solid rgba(255, 255, 255, 0.596);
-    border-bottom: 2px solid rgba(255, 255, 255, 0.596);
+    border-radius: 20px;
+    padding: 8px;
 }
 
-.second-set-skills {
-    background-color: rgb(57, 56, 56);
-    width: 60%;
-    height: 220px;
-    margin-left: auto;
-    margin-right: auto;
-    border-right: 2px solid rgba(255, 255, 255, 0.596);
-    border-left: 2px solid rgba(255, 255, 255, 0.596);
-    border-bottom: 2px solid rgba(255, 255, 255, 0.596);
+.skills-career {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }
 
-.first-set-skills h3 {
+.skills-career div {
+    margin-top: 50px;
     text-align: center;
-    margin-top: 90px;
-    background-color: black;
-    border-top: 2px solid rgba(255, 255, 255, 0.596);
-    border-bottom: 2px solid rgba(255, 255, 255, 0.596);
 }
 
-.second-set-skills h3 {
+.skills-career div img {
+    width: 270px;
+    height: 250px;
+    border-radius: 20px;
+    border-color: rgb(81, 79, 79);
+    border-style: solid;
+    border-width: 5.5px;
+    object-fit: cover;
+}
+
+.my-skills-technical {
+    width: 1260px;
+    max-width: 90%;
+    margin: 70px auto;
+}
+
+.skills-technical {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.skills-technical div {
+    grid-column: span 2;
+    margin-top: 50px;
     text-align: center;
-    margin-top: 90px;
-    background-color: black;
-    border-top: 2px solid rgba(255, 255, 255, 0.596);
-    border-bottom: 2px solid rgba(255, 255, 255, 0.596);
 }
 
-.first-set-skills ul {
-    margin-left: 90px;
-    margin-top: 10px;
-    line-height: 30px;
-    display: inline-block;
+.skills-technical div:nth-child(4) {
+    grid-column: 2 / span 2;
 }
 
-.second-set-skills ul {
-    margin-left: 90px;
-    margin-top: 10px;
-    line-height: 30px;
-    display: inline-block;
+.skills-technical div:nth-child(5) {
+    grid-column: 4 / span 2;
 }
 
-#ul-first-skills-2 {
-    margin-left: 130px;
-}
-
-#ul-second-skills-2 {
-    margin-left: 110px;
+.skills-technical div img {
+    width: 270px;
+    height: 250px;
+    border-radius: 20px;
+    border-color: rgb(81, 79, 79);
+    border-style: solid;
+    border-width: 5.5px;
+    object-fit: cover;
 }
 
 .contacts-cover {
@@ -543,6 +702,7 @@ body {
     border-style: solid;
     border-color: rgb(81, 79, 79);
     border-width: 5px;
+    object-fit: cover;
 }
 
 .contacts-cover p {
@@ -572,62 +732,24 @@ body {
     padding: 8px;
 }
 
-.email {
+.contacts-personal {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.contacts-personal div {
+    margin-top: 50px;
     text-align: center;
-    margin-top: 120px;
-    width: 45%;
-    height: 180px;
-    margin-left: 450px;
 }
 
-.email-img {
-    float: left;
-    margin-top: 70px;
-    margin-left: 160px;
-}
-
-.email-img img {
-    width: 120px;
-    height: 120px;
-    border-radius: 100px;
-    border-color: rgb(81, 79, 79);
-    border-style: solid;
-    border-width: 5.5px;
-}
-
-.email h3, .phone-number h3,
-.facebook h3, .instagram h3,
-.messenger h3 {
-    padding: 5px;
-    background-color: black;
+.contacts-personal div img {
+    width: 300px;
+    height: 250px;
     border-radius: 20px;
-    border-top: 2px solid rgba(255, 255, 255, 0.596);
-    border-bottom: 2px solid rgba(255, 255, 255, 0.596);
-    border-right: 2px solid rgba(255, 255, 255, 0.596);
-    border-left: 2px solid rgba(255, 255, 255, 0.596);
-}
-
-.phone-number {
-    text-align: center;
-    margin-top: 100px;
-    width: 45%;
-    height: 180px;
-    margin-left: 450px;
-}
-
-.phone-img {
-    float: left;
-    margin-top: 70px;
-    margin-left: 160px;
-}
-
-.phone-img img {
-    width: 120px;
-    height: 120px;
-    border-radius: 100px;
     border-color: rgb(81, 79, 79);
     border-style: solid;
     border-width: 5.5px;
+    object-fit: cover;
 }
 
 .my-socials {
@@ -648,87 +770,24 @@ body {
     padding: 8px;
 }
 
-.facebook {
+.social-media {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.social-media div {
+    margin-top: 50px;
     text-align: center;
-    margin-top: 120px;
-    width: 45%;
-    height: 180px;
-    margin-left: auto;
-    margin-right: 450px;
 }
 
-.facebook-img {
-    float: right;
-    margin-top: 70px;
-    margin-right: 160px;
-}
-
-.facebook-img img {
-    width: 120px;
-    height: 120px;
-    border-radius: 100px;
+.social-media div img {
+    width: 300px;
+    height: 250px;
+    border-radius: 20px;
     border-color: rgb(81, 79, 79);
     border-style: solid;
     border-width: 5.5px;
-}
-
-.instagram {
-    text-align: center;
-    margin-top: 100px;
-    width: 45%;
-    height: 180px;
-    margin-left: auto;
-    margin-right: 450px;
-}
-
-.instagram-img {
-    float: right;
-    margin-top: 80px;
-    margin-right: 160px;
-}
-
-.instagram-img img {
-    width: 120px;
-    height: 120px;
-    border-radius: 100px;
-    border-color: rgb(81, 79, 79);
-    border-style: solid;
-    border-width: 5.5px;
-}
-
-.messenger {
-    text-align: center;
-    margin-top: 100px;
-    width: 45%;
-    height: 180px;
-    margin-left: auto;
-    margin-right: 450px;
-}
-
-.messenger-img {
-    float: right;
-    margin-top: 80px;
-    margin-right: 160px;
-}
-
-.messenger-img img {
-    width: 120px;
-    height: 120px;
-    border-radius: 100px;
-    border-color: rgb(81, 79, 79);
-    border-style: solid;
-    border-width: 5.5px;
-}
-
-.phone-number p, .facebook p,
-.email p, .instragram p,
-.messenger p {
-    width: 82%;
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: 25px;
-    line-height: 25px;
-    word-spacing: 1px;
+    object-fit: cover;
 }
 
 .footer-side {
