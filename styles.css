@@ -24,6 +24,7 @@ body {
 }
 
 .content-nav nav ul li a {
+    font-size: 20px;
     text-decoration: none;
     margin: 30px;
     color: white;
@@ -45,7 +46,7 @@ body {
 
 .prof-img {
     float: right;
-    margin-right: 70px;
+    margin-right: 100px;
     margin-top: 30px;
 }
 
@@ -79,7 +80,7 @@ body {
     width: 50%;
     margin-top: 30px;
     margin-left: 70px;
-    line-height: 30px;
+    line-height: 35px;
     word-spacing: 1px;
     text-align: justify;
 }
@@ -203,12 +204,12 @@ body {
 }
 
 .dyci p, .marcelo p, .bmsi p {
-    width: 82%;
+    width: 90%;
     margin-right: auto;
     margin-left: auto;
     margin-top: 25px;
     text-align: justify;
-    line-height: 25px;
+    line-height: 35px;
     word-spacing: 1px;
 }
 
@@ -257,7 +258,7 @@ body {
     background-repeat: no-repeat;
     width: 1260px;
     max-width: 90%;
-    padding: 139px 30px;
+    padding: 145px 30px;
     margin: 70px auto;
     border-radius: 10px;
     border: 5px solid rgb(158, 158, 158);
@@ -265,13 +266,13 @@ body {
 
 .interests-img {
     float: right;
-    margin-right: 70px;
-    margin-top: -49px;
+    margin-right: 100px;
+    margin-top: -40px;
 }
 
 .interests-img img {
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 220px;
     border-radius: 20px;
     border-style: solid;
     border-color: rgb(81, 79, 79);
@@ -283,7 +284,7 @@ body {
     width: 50%;
     margin-top: 30px;
     margin-left: 70px;
-    line-height: 30px;
+    line-height: 35px;
     word-spacing: 1px;
     text-align: justify;
 }
@@ -306,24 +307,253 @@ body {
     padding: 8px;
 }
 
-.interests-personal {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-}
-
-.interests-personal div {
-    margin-top: 50px;
+.fitness {
     text-align: center;
+    margin-top: 120px;
+    width: 50%;
+    height: 180px;
+    margin-left: 450px;
 }
 
-.interests-personal div img {
-    width: 270px;
-    height: 250px;
+.fitness-img {
+    float: left;
+    margin-top: 80px;
+    margin-left: 100px;
+}
+
+.fitness-img img {
+    width: 230px;
+    height: 220px;
     border-radius: 20px;
     border-color: rgb(81, 79, 79);
     border-style: solid;
     border-width: 5.5px;
     object-fit: cover;
+}
+
+.fitness h3, .esports h3,
+.lego h3, .technologies h3,
+.music h3, .movie h3,
+.sneakers h3, .vehicle h3,
+.coffee h3 {
+    padding: 5px;
+    background-color: black;
+    border-radius: 20px;
+    border-top: 2px solid rgba(255, 255, 255, 0.596);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.596);
+    border-right: 2px solid rgba(255, 255, 255, 0.596);
+    border-left: 2px solid rgba(255, 255, 255, 0.596);
+}
+
+.esports {
+    text-align: center;
+    margin-top: 160px;
+    width: 50%;
+    height: 180px;
+    margin-left: auto;
+    margin-right: 450px;
+}
+
+.esports-img {
+    float: right;
+    margin-top: 140px;
+    margin-right: 100px;
+}
+
+.esports-img img {
+    width: 230px;
+    height: 220px;
+    border-radius: 20px;
+    border-color: rgb(81, 79, 79);
+    border-style: solid;
+    border-width: 5.5px;
+    object-fit: cover;
+}
+
+.lego {
+    text-align: center;
+    margin-top: 160px;
+    width: 50%;
+    height: 180px;
+    margin-left: 450px;
+}
+
+.lego-img {
+    float: left;
+    margin-top: 145px;
+    margin-left: 100px;
+}
+
+.lego-img img {
+    width: 230px;
+    height: 220px;
+    border-radius: 20px;
+    border-color: rgb(81, 79, 79);
+    border-style: solid;
+    border-width: 5.5px;
+    object-fit: cover;
+}
+
+.technologies {
+    text-align: center;
+    margin-top: 160px;
+    width: 50%;
+    height: 180px;
+    margin-left: auto;
+    margin-right: 450px;
+}
+
+.technologies-img {
+    float: right;
+    margin-top: 140px;
+    margin-right: 100px;
+}
+
+.technologies-img img {
+    width: 230px;
+    height: 220px;
+    border-radius: 20px;
+    border-color: rgb(81, 79, 79);
+    border-style: solid;
+    border-width: 5.5px;
+    object-fit: cover;
+}
+
+.music {
+    text-align: center;
+    margin-top: 160px;
+    width: 50%;
+    height: 180px;
+    margin-left: 450px;
+}
+
+.music-img {
+    float: left;
+    margin-top: 145px;
+    margin-left: 100px;
+}
+
+.music-img img {
+    width: 230px;
+    height: 220px;
+    border-radius: 20px;
+    border-color: rgb(81, 79, 79);
+    border-style: solid;
+    border-width: 5.5px;
+    object-fit: cover;
+}
+
+.movie {
+    text-align: center;
+    margin-top: 160px;
+    width: 50%;
+    height: 180px;
+    margin-left: auto;
+    margin-right: 450px;
+}
+
+.movie-img {
+    float: right;
+    margin-top: 140px;
+    margin-right: 100px;
+}
+
+.movie-img img {
+    width: 230px;
+    height: 220px;
+    border-radius: 20px;
+    border-color: rgb(81, 79, 79);
+    border-style: solid;
+    border-width: 5.5px;
+    object-fit: cover;
+}
+
+.sneakers {
+    text-align: center;
+    margin-top: 160px;
+    width: 50%;
+    height: 180px;
+    margin-left: 450px;
+}
+
+.sneakers-img {
+    float: left;
+    margin-top: 145px;
+    margin-left: 100px;
+}
+
+.sneakers-img img {
+    width: 230px;
+    height: 220px;
+    border-radius: 20px;
+    border-color: rgb(81, 79, 79);
+    border-style: solid;
+    border-width: 5.5px;
+    object-fit: cover;
+}
+
+.vehicle {
+    text-align: center;
+    margin-top: 160px;
+    width: 50%;
+    height: 180px;
+    margin-left: auto;
+    margin-right: 450px;
+}
+
+.vehicle-img {
+    float: right;
+    margin-top: 140px;
+    margin-right: 100px;
+}
+
+.vehicle-img img {
+    width: 230px;
+    height: 220px;
+    border-radius: 20px;
+    border-color: rgb(81, 79, 79);
+    border-style: solid;
+    border-width: 5.5px;
+    object-fit: cover;
+}
+
+.coffee {
+    text-align: center;
+    margin-top: 160px;
+    width: 50%;
+    height: 180px;
+    margin-left: 450px;
+    margin-bottom: 150px;
+}
+
+.coffee-img {
+    float: left;
+    margin-top: 145px;
+    margin-left: 100px;
+}
+
+.coffee-img img {
+    width: 230px;
+    height: 220px;
+    border-radius: 20px;
+    border-color: rgb(81, 79, 79);
+    border-style: solid;
+    border-width: 5.5px;
+    object-fit: cover;
+}
+
+.fitness p, .esports p,
+.lego p, .technologies p,
+.music p, .movie p,
+.sneakers p, .vehicle p,
+.coffee p {
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 25px;
+    text-align: justify;
+    line-height: 35px;
+    word-spacing: 1px;
 }
 
 .my-interests-career {
@@ -332,33 +562,152 @@ body {
     margin: 70px auto;
 }
 
-.interests-career {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-}
-
-.interests-career div {
-    grid-column: span 2;
-    margin-top: 50px;
+.software {
     text-align: center;
+    margin-top: 120px;
+    width: 50%;
+    height: 180px;
+    margin-left: auto;
+    margin-right: 450px;
 }
 
-.interests-career div:nth-child(4) {
-    grid-column: 2 / span 2;
+.software-img {
+    float: right;
+    margin-top: 80px;
+    margin-right: 100px;
 }
 
-.interests-career div:nth-child(5) {
-    grid-column: 4 / span 2;
-}
-
-.interests-career div img {
-    width: 270px;
-    height: 250px;
+.software-img img {
+    width: 230px;
+    height: 220px;
     border-radius: 20px;
     border-color: rgb(81, 79, 79);
     border-style: solid;
     border-width: 5.5px;
     object-fit: cover;
+}
+
+.software h3, .hardware h3,
+.cybersecurity h3, .daa h3,
+.seminars h3 {
+    padding: 5px;
+    background-color: black;
+    border-radius: 20px;
+    border-top: 2px solid rgba(255, 255, 255, 0.596);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.596);
+    border-right: 2px solid rgba(255, 255, 255, 0.596);
+    border-left: 2px solid rgba(255, 255, 255, 0.596);
+}
+
+.hardware {
+    text-align: center;
+    margin-top: 160px;
+    width: 50%;
+    height: 180px;
+    margin-left: 450px;
+}
+
+.hardware-img {
+    float: left;
+    margin-top: 145px;
+    margin-left: 100px;
+}
+
+.hardware-img img {
+    width: 230px;
+    height: 220px;
+    border-radius: 20px;
+    border-color: rgb(81, 79, 79);
+    border-style: solid;
+    border-width: 5.5px;
+    object-fit: cover;
+}
+
+.cybersecurity {
+    text-align: center;
+    margin-top: 160px;
+    width: 50%;
+    height: 180px;
+    margin-left: auto;
+    margin-right: 450px;
+}
+
+.cybersecurity-img {
+    float: right;
+    margin-top: 140px;
+    margin-right: 100px;
+}
+
+.cybersecurity-img img {
+    width: 230px;
+    height: 220px;
+    border-radius: 20px;
+    border-color: rgb(81, 79, 79);
+    border-style: solid;
+    border-width: 5.5px;
+    object-fit: cover;
+}
+
+.daa {
+    text-align: center;
+    margin-top: 160px;
+    width: 50%;
+    height: 180px;
+    margin-left: 450px;
+}
+
+.daa-img {
+    float: left;
+    margin-top: 145px;
+    margin-left: 100px;
+}
+
+.daa-img img {
+    width: 230px;
+    height: 220px;
+    border-radius: 20px;
+    border-color: rgb(81, 79, 79);
+    border-style: solid;
+    border-width: 5.5px;
+    object-fit: cover;
+}
+
+.seminars {
+    text-align: center;
+    margin-top: 160px;
+    width: 50%;
+    height: 180px;
+    margin-left: auto;
+    margin-right: 450px;
+    margin-bottom: 150px;
+}
+
+.seminars-img {
+    float: right;
+    margin-top: 140px;
+    margin-right: 100px;
+}
+
+.seminars-img img {
+    width: 230px;
+    height: 220px;
+    border-radius: 20px;
+    border-color: rgb(81, 79, 79);
+    border-style: solid;
+    border-width: 5.5px;
+    object-fit: cover;
+}
+
+.software p, .hardware p,
+.cybersecurity p, .daa p,
+.seminars p {
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 25px;
+    text-align: justify;
+    line-height: 35px;
+    word-spacing: 1px;
 }
 
 .goals-cover {
@@ -368,7 +717,7 @@ body {
     background-repeat: no-repeat;
     width: 1260px;
     max-width: 90%;
-    padding: 124px 30px;
+    padding: 162.5px 30px;
     margin: 70px auto;
     border-radius: 10px;
     border: 5px solid rgb(158, 158, 158);
@@ -376,13 +725,13 @@ body {
 
 .goals-img {
     float: right;
-    margin-right: 70px;
-    margin-top: -34px;
+    margin-right: 100px;
+    margin-top: -57.5px;
 }
 
 .goals-img img {
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 220px;
     border-radius: 20px;
     border-style: solid;
     border-color: rgb(81, 79, 79);
@@ -393,7 +742,7 @@ body {
     width: 50%;
     margin-top: 30px;
     margin-left: 70px;
-    line-height: 30px;
+    line-height: 35px;
     word-spacing: 1px;
     text-align: justify;
 }
@@ -419,7 +768,7 @@ body {
 .travelling {
     text-align: center;
     margin-top: 120px;
-    width: 45%;
+    width: 50%;
     height: 180px;
     margin-left: 450px;
 }
@@ -455,7 +804,7 @@ body {
 .stable-life {
     text-align: center;
     margin-top: 160px;
-    width: 45%;
+    width: 50%;
     height: 180px;
     margin-left: auto;
     margin-right: 450px;
@@ -480,7 +829,7 @@ body {
 .business {
     text-align: center;
     margin-top: 160px;
-    width: 45%;
+    width: 50%;
     height: 180px;
     margin-left: 450px;
 }
@@ -504,7 +853,7 @@ body {
 .house {
     text-align: center;
     margin-top: 160px;
-    width: 45%;
+    width: 50%;
     height: 180px;
     margin-left: auto;
     margin-right: 450px;
@@ -530,7 +879,7 @@ body {
     text-align: center;
     margin-top: 160px;
     margin-bottom: 150px;
-    width: 45%;
+    width: 50%;
     height: 180px;
     margin-left: 450px;
 
@@ -555,12 +904,12 @@ body {
 .travelling p, .stable-life p,
 .business p, .house p,
 .provider p {
-    width: 82%;
+    width: 90%;
     margin-right: auto;
     margin-left: auto;
     margin-top: 25px;
     text-align: justify;
-    line-height: 25px;
+    line-height: 35px;
     word-spacing: 1px;
 }
 
@@ -571,7 +920,7 @@ body {
     background-repeat: no-repeat;
     width: 1260px;
     max-width: 90%;
-    padding: 139px 30px;
+    padding: 180px 30px;
     margin: 70px auto;
     border-radius: 10px;
     border: 5px solid rgb(158, 158, 158);
@@ -580,13 +929,13 @@ body {
 
 .skills-img {
     float: right;
-    margin-right: 70px;
-    margin-top: -49px;
+    margin-right: 100px;
+    margin-top: -75px;
 }
 
 .skills-img img {
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 220px;
     border-radius: 20px;
     border-style: solid;
     border-color: rgb(81, 79, 79);
@@ -598,7 +947,7 @@ body {
     width: 50%;
     margin-top: 30px;
     margin-left: 70px;
-    line-height: 30px;
+    line-height: 35px;
     word-spacing: 1px;
     text-align: justify;
 }
@@ -683,7 +1032,7 @@ body {
     background-repeat: no-repeat;
     width: 1260px;
     max-width: 90%;
-    padding: 139px 30px;
+    padding: 180px 30px;
     margin: 70px auto;
     border-radius: 10px;
     border: 5px solid rgb(158, 158, 158);
@@ -691,13 +1040,13 @@ body {
 
 .contacts-img {
     float: right;
-    margin-right: 70px;
-    margin-top: -49px;
+    margin-right: 100px;
+    margin-top: -75px;
 }
 
 .contacts-img img {
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 220px;
     border-radius: 20px;
     border-style: solid;
     border-color: rgb(81, 79, 79);
@@ -709,7 +1058,7 @@ body {
     width: 50%;
     margin-top: 30px;
     margin-left: 70px;
-    line-height: 30px;
+    line-height: 35px;
     word-spacing: 1px;
     text-align: justify;
 }
