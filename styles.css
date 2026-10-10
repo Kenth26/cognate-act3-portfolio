@@ -124,13 +124,13 @@ body {
     margin-top: 120px;
     width: 50%;
     height: 180px;
-    margin-left: 450px;
+    margin-left: 525px;
 }
 
 .dyci-img {
     float: left;
     margin-top: 80px;
-    margin-left: 100px;
+    margin-left: 125px;
 }
 
 .dyci-img img {
@@ -159,13 +159,13 @@ body {
     width: 50%;
     height: 180px;
     margin-left: auto;
-    margin-right: 450px;
+    margin-right: 525px;
 }
 
 .marcelo-img {
     float: right;
     margin-top: 140px;
-    margin-right: 100px;
+    margin-right: 125px;
 }
 
 .marcelo-img img {
@@ -183,14 +183,14 @@ body {
     margin-top: 160px;
     width: 50%;
     height: 180px;
-    margin-left: 450px;
+    margin-left: 525px;
     margin-bottom: 150px;
 }
 
 .bmsi-img {
     float: left;
     margin-top: 145px;
-    margin-left: 100px;
+    margin-left: 125px;
 }
 
 .bmsi-img img {
@@ -312,7 +312,7 @@ body {
     margin-top: 120px;
     width: 50%;
     height: 180px;
-    margin-left: 450px;
+    margin-left: 530px;
 }
 
 .fitness-img {
@@ -322,7 +322,7 @@ body {
 }
 
 .fitness-img img {
-    width: 230px;
+    width: 300px;
     height: 220px;
     border-radius: 20px;
     border-color: rgb(81, 79, 79);
@@ -351,17 +351,17 @@ body {
     width: 50%;
     height: 180px;
     margin-left: auto;
-    margin-right: 450px;
+    margin-right: 530px;
 }
 
 .esports-img {
     float: right;
-    margin-top: 140px;
+    margin-top: 145px;
     margin-right: 100px;
 }
 
 .esports-img img {
-    width: 230px;
+    width: 300px;
     height: 220px;
     border-radius: 20px;
     border-color: rgb(81, 79, 79);
@@ -375,7 +375,7 @@ body {
     margin-top: 160px;
     width: 50%;
     height: 180px;
-    margin-left: 450px;
+    margin-left: 530px;
 }
 
 .lego-img {
@@ -385,7 +385,7 @@ body {
 }
 
 .lego-img img {
-    width: 230px;
+    width: 300px;
     height: 220px;
     border-radius: 20px;
     border-color: rgb(81, 79, 79);
@@ -400,17 +400,17 @@ body {
     width: 50%;
     height: 180px;
     margin-left: auto;
-    margin-right: 450px;
+    margin-right: 530px;
 }
 
 .technologies-img {
     float: right;
-    margin-top: 140px;
+    margin-top: 145px;
     margin-right: 100px;
 }
 
 .technologies-img img {
-    width: 230px;
+    width: 300px;
     height: 220px;
     border-radius: 20px;
     border-color: rgb(81, 79, 79);
@@ -424,7 +424,7 @@ body {
     margin-top: 160px;
     width: 50%;
     height: 180px;
-    margin-left: 450px;
+    margin-left: 530px;
 }
 
 .music-img {
@@ -434,7 +434,7 @@ body {
 }
 
 .music-img img {
-    width: 230px;
+    width: 300px;
     height: 220px;
     border-radius: 20px;
     border-color: rgb(81, 79, 79);
@@ -449,17 +449,17 @@ body {
     width: 50%;
     height: 180px;
     margin-left: auto;
-    margin-right: 450px;
+    margin-right: 530px;
 }
 
 .movie-img {
     float: right;
-    margin-top: 140px;
+    margin-top: 145px;
     margin-right: 100px;
 }
 
 .movie-img img {
-    width: 230px;
+    width: 300px;
     height: 220px;
     border-radius: 20px;
     border-color: rgb(81, 79, 79);
@@ -473,7 +473,7 @@ body {
     margin-top: 160px;
     width: 50%;
     height: 180px;
-    margin-left: 450px;
+    margin-left: 530px;
 }
 
 .sneakers-img {
@@ -483,7 +483,7 @@ body {
 }
 
 .sneakers-img img {
-    width: 230px;
+    width: 300px;
     height: 220px;
     border-radius: 20px;
     border-color: rgb(81, 79, 79);
@@ -498,17 +498,17 @@ body {
     width: 50%;
     height: 180px;
     margin-left: auto;
-    margin-right: 450px;
+    margin-right: 530px;
 }
 
 .vehicle-img {
     float: right;
-    margin-top: 140px;
+    margin-top: 145px;
     margin-right: 100px;
 }
 
 .vehicle-img img {
-    width: 230px;
+    width: 300px;
     height: 220px;
     border-radius: 20px;
     border-color: rgb(81, 79, 79);
@@ -522,7 +522,7 @@ body {
     margin-top: 160px;
     width: 50%;
     height: 180px;
-    margin-left: 450px;
+    margin-left: 530px;
     margin-bottom: 150px;
 }
 
@@ -533,7 +533,7 @@ body {
 }
 
 .coffee-img img {
-    width: 230px;
+    width: 300px;
     height: 220px;
     border-radius: 20px;
     border-color: rgb(81, 79, 79);
@@ -568,7 +568,7 @@ body {
     width: 50%;
     height: 180px;
     margin-left: auto;
-    margin-right: 450px;
+    margin-right: 530px;
 }
 
 .software-img {
@@ -578,7 +578,7 @@ body {
 }
 
 .software-img img {
-    width: 230px;
+    width: 300px;
     height: 220px;
     border-radius: 20px;
     border-color: rgb(81, 79, 79);
@@ -604,7 +604,7 @@ body {
     margin-top: 160px;
     width: 50%;
     height: 180px;
-    margin-left: 450px;
+    margin-left: 530px;
 }
 
 .hardware-img {
@@ -614,7 +614,7 @@ body {
 }
 
 .hardware-img img {
-    width: 230px;
+    width: 300px;
     height: 220px;
     border-radius: 20px;
     border-color: rgb(81, 79, 79);
@@ -629,17 +629,17 @@ body {
     width: 50%;
     height: 180px;
     margin-left: auto;
-    margin-right: 450px;
+    margin-right: 530px;
 }
 
 .cybersecurity-img {
     float: right;
-    margin-top: 140px;
+    margin-top: 145px;
     margin-right: 100px;
 }
 
 .cybersecurity-img img {
-    width: 230px;
+    width: 300px;
     height: 220px;
     border-radius: 20px;
     border-color: rgb(81, 79, 79);
@@ -653,7 +653,7 @@ body {
     margin-top: 160px;
     width: 50%;
     height: 180px;
-    margin-left: 450px;
+    margin-left: 530px;
 }
 
 .daa-img {
@@ -663,7 +663,7 @@ body {
 }
 
 .daa-img img {
-    width: 230px;
+    width: 300px;
     height: 220px;
     border-radius: 20px;
     border-color: rgb(81, 79, 79);
@@ -678,18 +678,18 @@ body {
     width: 50%;
     height: 180px;
     margin-left: auto;
-    margin-right: 450px;
+    margin-right: 530px;
     margin-bottom: 150px;
 }
 
 .seminars-img {
     float: right;
-    margin-top: 140px;
+    margin-top: 145px;
     margin-right: 100px;
 }
 
 .seminars-img img {
-    width: 230px;
+    width: 300px;
     height: 220px;
     border-radius: 20px;
     border-color: rgb(81, 79, 79);
@@ -770,7 +770,7 @@ body {
     margin-top: 120px;
     width: 50%;
     height: 180px;
-    margin-left: 450px;
+    margin-left: 530px;
 }
 
 .travelling-img {
@@ -780,7 +780,7 @@ body {
 }
 
 .travelling-img img {
-    width: 230px;
+    width: 300px;
     height: 220px;
     border-radius: 20px;
     border-color: rgb(81, 79, 79);
@@ -807,17 +807,17 @@ body {
     width: 50%;
     height: 180px;
     margin-left: auto;
-    margin-right: 450px;
+    margin-right: 530px;
 }
 
 .stable-img {
     float: right;
-    margin-top: 140px;
+    margin-top: 145px;
     margin-right: 100px;
 }
 
 .stable-img img {
-    width: 230px;
+    width: 300px;
     height: 220px;
     border-radius: 20px;
     border-color: rgb(81, 79, 79);
@@ -831,7 +831,7 @@ body {
     margin-top: 160px;
     width: 50%;
     height: 180px;
-    margin-left: 450px;
+    margin-left: 530px;
 }
 
 .business-img {
@@ -841,7 +841,7 @@ body {
 }
 
 .business-img img {
-    width: 230px;
+    width: 300px;
     height: 220px;
     border-radius: 20px;
     border-color: rgb(81, 79, 79);
@@ -856,17 +856,17 @@ body {
     width: 50%;
     height: 180px;
     margin-left: auto;
-    margin-right: 450px;
+    margin-right: 530px;
 }
 
 .house-img {
     float: right;
-    margin-top: 140px;
+    margin-top: 145px;
     margin-right: 100px;
 }
 
 .house-img img {
-    width: 230px;
+    width: 300px;
     height: 220px;
     border-radius: 20px;
     border-color: rgb(81, 79, 79);
@@ -881,7 +881,7 @@ body {
     margin-bottom: 150px;
     width: 50%;
     height: 180px;
-    margin-left: 450px;
+    margin-left: 530px;
 
 }
 
@@ -892,7 +892,7 @@ body {
 }
 
 .provider-img img {
-    width: 230px;
+    width: 300px;
     height: 220px;
     border-radius: 20px;
     border-color: rgb(81, 79, 79);
