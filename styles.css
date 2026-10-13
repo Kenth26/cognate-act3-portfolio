@@ -1,5 +1,5 @@
 * {
-    box-sizing: content-box;
+    box-sizing: border-box;
 }
 
 body {
@@ -254,7 +254,7 @@ body {
     background-repeat: no-repeat;
     width: 1260px;
     max-width: 90%;
-    padding: 145px 30px;
+    padding: 123.3px 30px;
     margin: 70px auto;
     border-radius: 10px;
     border: 5px solid rgb(158, 158, 158);
@@ -704,7 +704,7 @@ body {
     background-repeat: no-repeat;
     width: 1260px;
     max-width: 90%;
-    padding: 162.5px 30px;
+    padding: 158.5px 30px;
     margin: 70px auto;
     border-radius: 10px;
     border: 5px solid rgb(158, 158, 158);
@@ -901,7 +901,7 @@ body {
     background-repeat: no-repeat;
     width: 1260px;
     max-width: 90%;
-    padding: 180px 30px;
+    padding: 176px 30px;
     margin: 70px auto;
     border-radius: 10px;
     border: 5px solid rgb(158, 158, 158);
@@ -1010,7 +1010,7 @@ body {
     background-repeat: no-repeat;
     width: 1260px;
     max-width: 90%;
-    padding: 180px 30px;
+    padding: 176px 30px;
     margin: 70px auto;
     border-radius: 10px;
     border: 5px solid rgb(158, 158, 158);
