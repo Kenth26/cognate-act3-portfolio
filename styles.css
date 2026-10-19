@@ -14,7 +14,15 @@ body {
     font-family: sans-serif;
 }
 
+#wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 .content-nav {
+    width: 100%;
     background-color: black;
     line-height: 30px;
     padding-top: 10px;
@@ -43,8 +51,8 @@ body {
     background-repeat: no-repeat;
     width: 1260px;
     max-width: 90%;
-    padding: 60px 30px;
-    margin: 70px auto;
+    padding: 50px 30px;
+    margin: 50px auto;
     border-radius: 10px;
     border: 5px solid rgb(158, 158, 158);
 }
@@ -254,16 +262,16 @@ body {
     background-repeat: no-repeat;
     width: 1260px;
     max-width: 90%;
-    padding: 123.3px 30px;
-    margin: 70px auto;
+    padding: 113px 30px;
+    margin: 50px auto;
     border-radius: 10px;
     border: 5px solid rgb(158, 158, 158);
 }
 
 .interests-img {
     float: right;
-    margin-right: 100px;
-    margin-top: -22px;
+    margin-right: 60px;
+    margin-top: -5px;
 }
 
 .interests-img img {
@@ -704,16 +712,16 @@ body {
     background-repeat: no-repeat;
     width: 1260px;
     max-width: 90%;
-    padding: 158.5px 30px;
-    margin: 70px auto;
+    padding: 148px 30px;
+    margin: 50px auto;
     border-radius: 10px;
     border: 5px solid rgb(158, 158, 158);
 }
 
 .goals-img {
     float: right;
-    margin-right: 100px;
-    margin-top: -57.5px;
+    margin-right: 60px;
+    margin-top: -40.5px;
 }
 
 .goals-img img {
@@ -901,8 +909,8 @@ body {
     background-repeat: no-repeat;
     width: 1260px;
     max-width: 90%;
-    padding: 176px 30px;
-    margin: 70px auto;
+    padding: 165.5px 30px;
+    margin: 50px auto;
     border-radius: 10px;
     border: 5px solid rgb(158, 158, 158);
     object-fit: cover;
@@ -910,8 +918,8 @@ body {
 
 .skills-img {
     float: right;
-    margin-right: 100px;
-    margin-top: -75px;
+    margin-right: 60px;
+    margin-top: -58px;
 }
 
 .skills-img img {
@@ -1010,16 +1018,16 @@ body {
     background-repeat: no-repeat;
     width: 1260px;
     max-width: 90%;
-    padding: 176px 30px;
-    margin: 70px auto;
+    padding: 165.5px 30px;
+    margin: 50px auto;
     border-radius: 10px;
     border: 5px solid rgb(158, 158, 158);
 }
 
 .contacts-img {
     float: right;
-    margin-right: 100px;
-    margin-top: -75px;
+    margin-right: 60px;
+    margin-top: -58px;
 }
 
 .contacts-img img {
