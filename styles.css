@@ -78,7 +78,7 @@ body {
 }
 
 .about-me-cover span {
-    color: gray;
+    color: rgb(187, 182, 182);
 }
 
 .about-me-cover h1 {
@@ -108,9 +108,8 @@ body {
 .socials img {
     width: 50px;
     height: 50px;
-    border-style: solid;
-    border-color: rgb(158, 158, 158);
-    border-radius: 40px;
+    border: 2px solid rgb(158, 158, 158);
+    border-radius: 90px;
     border-width: 5px;
 }
 
@@ -1064,30 +1063,69 @@ body {
     padding: 8px;
 }
 
-.contacts-personal {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+.contacts-career {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
 }
 
-.contacts-personal div {
-    margin-top: 50px;
+.contact-email {
+    background-color: rgb(30, 29, 29);
     text-align: center;
+    margin-top: 50px;
+    padding: 80px 120px;
+    border: 3px solid rgba(255, 255, 255, 0.596);
+    border-radius: 20px;
 }
 
-.contacts-personal div img {
-    width: 300px;
-    height: 250px;
-    border-radius: 20px;
-    border-color: rgb(81, 79, 79);
-    border-style: solid;
-    border-width: 5.5px;
+.contact-email img {
+    width: 110px;
+    height: 110px;
     object-fit: cover;
+    border: 2px solid rgb(158, 158, 158);
+    border-radius: 90px;
+    border-width: 5px;
+}
+
+.contact-email h2 {
+    color: rgb(187, 182, 182);
+}
+
+.contact-email p {
+    margin-top: 50px;
+}
+
+.contact-number {
+    background-color: rgb(30, 29, 29);
+    text-align: center;
+    margin-top: 50px;
+    padding: 80px 120px;
+    border: 3px solid rgba(255, 255, 255, 0.596);
+    border-radius: 20px;
+}
+
+.contact-number img {
+    width: 110px;
+    height: 110px;
+    object-fit: cover;
+    border: 2px solid rgb(158, 158, 158);
+    border-radius: 90px;
+    border-width: 5px;
+}
+
+.contact-number h2 {
+    color: rgb(187, 182, 182);
+}
+
+.contact-number p {
+    margin-top: 50px;
 }
 
 .my-socials {
     width: 1260px;
     max-width: 90%;
-    margin: 78px auto;
+    margin: 70px auto;
 }
 
 #h3-socials {
@@ -1101,22 +1139,170 @@ body {
 
 .social-media {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px;
 }
 
 .social-media div {
-    margin-top: 50px;
-    text-align: center;
+    grid-column: span 2;
 }
 
-.social-media div img {
-    width: 300px;
-    height: 250px;
+.social-media div:nth-child(3) {
+    grid-column: 2 / span 2;
+}
+
+.facebook {
+    background-color: rgb(30, 29, 29);
+    text-align: center;
+    margin-top: 50px;
+    padding: 40px 120px;
+    border: 3px solid rgba(255, 255, 255, 0.596);
     border-radius: 20px;
-    border-color: rgb(81, 79, 79);
-    border-style: solid;
-    border-width: 5.5px;
+}
+
+.facebook img {
+    width: 70px;
+    height: 70px;
     object-fit: cover;
+    border: 2px solid rgb(158, 158, 158);
+    border-radius: 90px;
+    border-width: 5px;
+}
+
+.facebook h2 {
+    color: rgb(187, 182, 182);
+}
+
+.facebook p {
+    margin-top: 50px;
+    line-height: 30px;
+}
+
+.youtube {
+    background-color: rgb(30, 29, 29);
+    text-align: center;
+    margin-top: 50px;
+    padding: 40px 120px;
+    border: 3px solid rgba(255, 255, 255, 0.596);
+    border-radius: 20px;
+}
+
+.youtube img {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border: 2px solid rgb(158, 158, 158);
+    border-radius: 90px;
+    border-width: 5px;
+}
+
+.youtube h2 {
+    color: rgb(187, 182, 182);
+}
+
+.youtube p {
+    margin-top: 50px;
+}
+
+.instagram {
+    background-color: rgb(30, 29, 29);
+    text-align: center;
+    margin-top: 50px;
+    padding: 40px 120px;
+    border: 3px solid rgba(255, 255, 255, 0.596);
+    border-radius: 20px;
+}
+
+.instagram img {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border: 2px solid rgb(158, 158, 158);
+    border-radius: 90px;
+    border-width: 5px;
+}
+
+.instagram h2 {
+    color: rgb(187, 182, 182);
+}
+
+.instagram p {
+    margin-top: 50px;
+}
+
+.my-form {
+    width: 1260px;
+    max-width: 90%;
+    margin: 70px auto;
+}
+
+#h3-form {
+    text-align: center;
+    font-size: 25px;
+    background-color: black;
+    border: 2px solid rgba(255, 255, 255, 0.596);
+    border-radius: 20px;
+    padding: 8px;
+}
+
+.contact-form {
+    max-width: 800px;
+    margin: 50px auto 0;
+    padding: 35px;
+    background-color: rgba(0, 0, 0, 0.75);
+    border: 5px solid rgb(81, 79, 79);
+    border-radius: 20px;
+}
+
+.form-row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.form-group input,
+.form-group textarea {
+    padding: 12px;
+    font-size: 16px;
+    font-family: sans-serif;
+    color: white;
+    background-color: rgb(30, 29, 29);
+    border: 2px solid rgb(81, 79, 79);
+    border-radius: 10px;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: rgb(158, 158, 158);
+}
+
+.contact-form button {
+    display: block;
+    width: 100%;
+    padding: 14px;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
 }
 
 .footer-side {
