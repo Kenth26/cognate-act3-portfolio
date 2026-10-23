@@ -51,7 +51,7 @@ body {
     background-repeat: no-repeat;
     width: 1260px;
     max-width: 90%;
-    padding: 50px 30px;
+    padding: 52.7px 30px;
     margin: 50px auto;
     border-radius: 10px;
     border: 5px solid rgb(158, 158, 158);
@@ -60,7 +60,7 @@ body {
 .prof-img {
     float: right;
     margin-right: 100px;
-    margin-top: 30px;
+    margin-top: 50px;
 }
 
 .prof-img img {
@@ -106,8 +106,8 @@ body {
 }
 
 .socials img {
-    width: 50px;
-    height: 50px;
+    width: 55px;
+    height: 55px;
     border: 2px solid rgb(158, 158, 158);
     border-radius: 90px;
     border-width: 5px;
@@ -261,7 +261,7 @@ body {
     background-repeat: no-repeat;
     width: 1260px;
     max-width: 90%;
-    padding: 113px 30px;
+    padding: 47px 30px;
     margin: 50px auto;
     border-radius: 10px;
     border: 5px solid rgb(158, 158, 158);
@@ -270,7 +270,7 @@ body {
 .interests-img {
     float: right;
     margin-right: 60px;
-    margin-top: -5px;
+    margin-top: 50px;
 }
 
 .interests-img img {
@@ -283,13 +283,49 @@ body {
     object-fit: cover;
 }
 
+.interests-cover h3 {
+    margin-left: 69px;
+    font-size: 35px;
+}
+
+.interests-cover span {
+    color: rgb(187, 182, 182);
+}
+
 .interests-cover p {
     width: 50%;
-    margin-top: 30px;
+    margin-top: -10px;
     margin-left: 70px;
     line-height: 35px;
     word-spacing: 1px;
     text-align: justify;
+}
+
+.inter-choices {
+    display: flex;
+    gap: 50px;
+    margin-left: 70px;
+    margin-top: 25px;
+}
+
+.interests-personal-choice {
+    background-color: rgb(30, 29, 29);
+    padding: 20px 35px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    border: 2px solid rgb(158, 158, 158);
+    border-radius: 20px;
+}
+
+.interests-career-choice {
+    background-color: rgb(30, 29, 29);
+    padding: 20px 40px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    border: 2px solid rgb(158, 158, 158);
+    border-radius: 20px;
 }
 
 .my-interests-personal {
@@ -711,7 +747,7 @@ body {
     background-repeat: no-repeat;
     width: 1260px;
     max-width: 90%;
-    padding: 148px 30px;
+    padding: 82px 30px;
     margin: 50px auto;
     border-radius: 10px;
     border: 5px solid rgb(158, 158, 158);
@@ -720,7 +756,7 @@ body {
 .goals-img {
     float: right;
     margin-right: 60px;
-    margin-top: -40.5px;
+    margin-top: 15px;
 }
 
 .goals-img img {
@@ -732,13 +768,38 @@ body {
     border-width: 5px;
 }
 
+.goals-cover h3 {
+    margin-left: 69px;
+    font-size: 35px;
+}
+
+.goals-cover span {
+    color: rgb(187, 182, 182);
+}
+
 .goals-cover p {
     width: 50%;
-    margin-top: 30px;
+    margin-top: -10px;
     margin-left: 70px;
     line-height: 35px;
     word-spacing: 1px;
     text-align: justify;
+}
+
+.come-see-goals {
+    display: flex;
+    margin-left: 70px;
+    margin-top: 25px;
+}
+
+.come-see {
+    background-color: rgb(30, 29, 29);
+    padding: 20px 45px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    border: 2px solid rgb(158, 158, 158);
+    border-radius: 20px;
 }
 
 .my-goals {
@@ -908,7 +969,7 @@ body {
     background-repeat: no-repeat;
     width: 1260px;
     max-width: 90%;
-    padding: 165.5px 30px;
+    padding: 99.5px 30px;
     margin: 50px auto;
     border-radius: 10px;
     border: 5px solid rgb(158, 158, 158);
@@ -918,7 +979,7 @@ body {
 .skills-img {
     float: right;
     margin-right: 60px;
-    margin-top: -58px;
+    margin-top: -2.5px;
 }
 
 .skills-img img {
@@ -931,13 +992,49 @@ body {
     object-fit: cover;
 }
 
+.skills-cover h3 {
+    margin-left: 69px;
+    font-size: 35px;
+}
+
 .skills-cover p {
     width: 50%;
-    margin-top: 30px;
+    margin-top: -10px;
     margin-left: 70px;
     line-height: 35px;
     word-spacing: 1px;
     text-align: justify;
+}
+
+.skills-cover span {
+    color: rgb(187, 182, 182);
+}
+
+.skills-choices {
+    display: flex;
+    gap: 50px;
+    margin-left: 70px;
+    margin-top: 25px;
+}
+
+.skills-career-choice {
+    background-color: rgb(30, 29, 29);
+    padding: 20px 35px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    border: 2px solid rgb(158, 158, 158);
+    border-radius: 20px;
+}
+
+.skills-technical-choice {
+    background-color: rgb(30, 29, 29);
+    padding: 20px 25px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    border: 2px solid rgb(158, 158, 158);
+    border-radius: 20px;
 }
 
 .my-skills-career {
@@ -1017,7 +1114,7 @@ body {
     background-repeat: no-repeat;
     width: 1260px;
     max-width: 90%;
-    padding: 165.5px 30px;
+    padding: 99.5px 30px;
     margin: 50px auto;
     border-radius: 10px;
     border: 5px solid rgb(158, 158, 158);
@@ -1026,7 +1123,7 @@ body {
 .contacts-img {
     float: right;
     margin-right: 60px;
-    margin-top: -58px;
+    margin-top: -2px;
 }
 
 .contacts-img img {
@@ -1039,13 +1136,59 @@ body {
     object-fit: cover;
 }
 
+.contacts-cover h3 {
+    margin-left: 69px;
+    font-size: 35px;
+}
+
+.contacts-cover span {
+    color: rgb(187, 182, 182);
+}
+
 .contacts-cover p {
     width: 50%;
-    margin-top: 30px;
+    margin-top: -10px;
     margin-left: 70px;
     line-height: 35px;
     word-spacing: 1px;
     text-align: justify;
+}
+
+.contacts-choices {
+    display: flex;
+    gap: 50px;
+    margin-left: 70px;
+    margin-top: 25px;
+}
+
+.contacts-choice {
+    background-color: rgb(30, 29, 29);
+    padding: 20px 30px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    border: 2px solid rgb(158, 158, 158);
+    border-radius: 20px;
+}
+
+.socmeds-choice {
+    background-color: rgb(30, 29, 29);
+    padding: 20px 15px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    border: 2px solid rgb(158, 158, 158);
+    border-radius: 20px;
+}
+
+.form-choice {
+    background-color: rgb(30, 29, 29);
+    padding: 20px 15px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    border: 2px solid rgb(158, 158, 158);
+    border-radius: 20px;
 }
 
 .my-contacts {
@@ -1249,8 +1392,8 @@ body {
     max-width: 800px;
     margin: 50px auto 0;
     padding: 35px;
-    background-color: rgba(0, 0, 0, 0.75);
-    border: 5px solid rgb(81, 79, 79);
+    background-color: rgb(30, 29, 29);
+    border: 3px solid rgba(255, 255, 255, 0.596);
     border-radius: 20px;
 }
 
@@ -1277,7 +1420,7 @@ body {
     font-size: 16px;
     font-family: sans-serif;
     color: white;
-    background-color: rgb(30, 29, 29);
+    background-color: black;
     border: 2px solid rgb(81, 79, 79);
     border-radius: 10px;
 }
