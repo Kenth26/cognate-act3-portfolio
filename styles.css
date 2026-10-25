@@ -1456,3 +1456,60 @@ body {
     margin-top: 50px;
     border-top: 2px solid;
 }
+
+@media (max-width: 1024px) {
+    .about-me-cover {
+        padding: 40px 25px;
+    }
+
+    .prof-img {
+        margin: 70px auto;
+    }
+    
+    .about-me-cover h1, .about-me-cover h3 {
+        margin: 10px;
+    }
+
+    .about-me-cover p {
+        width: 55%;
+        margin: 10px;
+    }
+
+    .socials {
+        margin: 20px 10px;
+    }
+
+    .dyci-img {
+        margin: 100px 25px;
+    }
+
+    .dyci {
+        margin: 100px 320px;
+    }
+
+    .marcelo-img {
+        margin: 120px 25px;
+    }
+
+    .marcelo {
+        margin: 120px 320px 0px 20px;
+        clear: left;
+    }
+
+    .bmsi-img {
+        margin: 250px 25px 0px;
+    }
+
+    .bmsi {
+        margin: 170px 320px;
+        clear: right;
+    }
+
+    .my-certification {
+        clear: left;
+    }
+
+    .certification {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
