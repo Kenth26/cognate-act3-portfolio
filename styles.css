@@ -969,7 +969,7 @@ body {
     background-repeat: no-repeat;
     width: 1260px;
     max-width: 90%;
-    padding: 99.5px 30px;
+    padding: 64.5px 30px;
     margin: 50px auto;
     border-radius: 10px;
     border: 5px solid rgb(158, 158, 158);
@@ -979,7 +979,7 @@ body {
 .skills-img {
     float: right;
     margin-right: 60px;
-    margin-top: -2.5px;
+    margin-top: 32.5px;
 }
 
 .skills-img img {
@@ -1114,7 +1114,7 @@ body {
     background-repeat: no-repeat;
     width: 1260px;
     max-width: 90%;
-    padding: 99.5px 30px;
+    padding: 64.5px 30px;
     margin: 50px auto;
     border-radius: 10px;
     border: 5px solid rgb(158, 158, 158);
@@ -1123,7 +1123,7 @@ body {
 .contacts-img {
     float: right;
     margin-right: 60px;
-    margin-top: -2px;
+    margin-top: 32.5px;
 }
 
 .contacts-img img {
@@ -1163,7 +1163,7 @@ body {
 
 .contacts-choice {
     background-color: rgb(30, 29, 29);
-    padding: 20px 40px;
+    padding: 20px 10px;
     text-decoration: none;
     color: white;
     font-weight: bold;
@@ -1495,8 +1495,10 @@ body {
     .daa, .seminars, .travelling,
     .stable-life, .business, .house, .provider {
         width: 100%;
-        height: auto;
-        margin: 20px 0 40px;
+        margin-top: 20px;
+        margin-bottom: 150px;
+        margin-right: 0px;
+        margin-left: 0px;
     }
 
     .dyci-img, .marcelo-img, .bmsi-img,
