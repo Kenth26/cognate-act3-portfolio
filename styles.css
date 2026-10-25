@@ -1606,4 +1606,8 @@ body {
     .contact-form {
         padding: 20px;
     }
+
+    .prof-img img {
+        height: 270px;
+    }
 }
