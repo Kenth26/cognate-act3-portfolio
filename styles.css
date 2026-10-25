@@ -1458,58 +1458,124 @@ body {
 }
 
 @media (max-width: 1024px) {
-    .about-me-cover {
+    .about-me-cover, .interests-cover,
+    .goals-cover, .skills-cover, .contacts-cover {
         padding: 40px 25px;
+        text-align: center;
     }
 
-    .prof-img {
-        margin: 70px auto;
+    .prof-img, .interests-img,
+    .goals-img, .skills-img, .contacts-img {
+        float: none;
+        margin: auto;
+    }
+
+    .about-me-cover h1, .about-me-cover h3, .interests-cover h3,
+    .goals-cover h3, .skills-cover h3, .contacts-cover h3 {
+        margin-left: auto;
+    }
+
+    .about-me-cover p, .interests-cover p,
+    .goals-cover p, .skills-cover p, .contacts-cover p {
+        width: 85%;
+        margin: auto;
+    }
+
+    .socials, .inter-choices,
+    .come-see-goals, .skills-choices, .contacts-choices {
+        justify-content: center;
+        margin-left: auto;
+    }
+
+    .dyci, .marcelo, .bmsi,
+    .fitness, .esports, .lego,
+    .technologies, .music, .movie,
+    .sneakers, .vehicle, .coffee,
+    .software, .hardware, .cybersecurity,
+    .daa, .seminars, .travelling,
+    .stable-life, .business, .house, .provider {
+        width: 100%;
+        height: auto;
+        margin: 20px 0 40px;
+    }
+
+    .dyci-img, .marcelo-img, .bmsi-img,
+    .fitness-img, .esports-img, .lego-img,
+    .technologies-img, .music-img, .movie-img,
+    .sneakers-img, .vehicle-img, .coffee-img,
+    .software-img, .hardware-img, .cybersecurity-img,
+    .daa-img, .seminars-img, .travelling-img,
+    .stable-img, .business-img, .house-img, .provider-img {
+        float: none;
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .certification, .skills-career, .skills-technical {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .skills-technical div, .skills-technical div:nth-child(4), .skills-technical div:nth-child(5),
+    .social-media div, .social-media div:nth-child(3) {
+        grid-column: auto;
+    }
+
+    .contacts-career {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .social-media {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+}
+
+@media (max-width: 600px) {
+    .content-nav nav ul li a {
+        margin-right: 10px;
+        margin-left: 10px;
+        font-size: 18px;
+    }
+
+    .certification, .skills-career,
+    .skills-technical, .social-media, .form-row {
+        grid-template-columns: 1fr;
+    }
+
+    .contacts-career {
+        flex-direction: column;
+        gap: 0;
+    }
+    .contact-email, .contact-number {
+        width: 100%;
+    }
+
+    .interests-cover h3, .goals-cover h3,
+    .skills-cover h3, .contacts-cover h3 {
+        font-size: 26px;
     }
     
-    .about-me-cover h1, .about-me-cover h3 {
-        margin: 10px;
+    #h3-educ, #h3-cert, #h3-inter, #h3-goals,
+    #h3-skills, #h3-contacts, #h3-socials, #h3-form {
+        font-size: 20px;
     }
 
-    .about-me-cover p {
-        width: 55%;
-        margin: 10px;
+    .interests-personal-choice, .interests-career-choice,
+    .come-see, .skills-career-choice,
+    .skills-technical-choice, .contacts-choice,
+    .socmeds-choice, .form-choice {
+        padding: 14px 20px;
     }
 
-    .socials {
-        margin: 20px 10px;
+    .contacts-choices {
+        gap: 25px;
     }
 
-    .dyci-img {
-        margin: 100px 25px;
-    }
-
-    .dyci {
-        margin: 100px 320px;
-    }
-
-    .marcelo-img {
-        margin: 120px 25px;
-    }
-
-    .marcelo {
-        margin: 120px 320px 0px 20px;
-        clear: left;
-    }
-
-    .bmsi-img {
-        margin: 250px 25px 0px;
-    }
-
-    .bmsi {
-        margin: 170px 320px;
-        clear: right;
-    }
-
-    .my-certification {
-        clear: left;
-    }
-
-    .certification {
-        grid-template-columns: repeat(2, 1fr);
+    .contact-form {
+        padding: 20px;
     }
 }
