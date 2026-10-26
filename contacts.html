@@ -6,103 +6,101 @@
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <div id="wrapper">
-            <header class="content-nav">
-                <nav>
-                    <input type="checkbox" id="menu-toggle">
-                    <label for="menu-toggle" class="hamburger">☰</label>
-                    <ul>
-                        <li><a href="index.html">About Me</a></li>
-                        <li><a href="interests.html">Interests</a></li>
-                        <li><a href="goals.html">Goals</a></li>
-                        <li><a href="skills.html">Skills</a></li>
-                        <li><a href="contacts.html">Contacts</a></li>
-                    </ul>
-                </nav>
-            </header>
-            <main>
-                <article class="contacts">
-                    <section class="contacts-cover">
-                        <div class="contacts-img">
-                            <img src="image/contacts/contacts.jpg" alt="contacts-img">
+        <header class="content-nav">
+            <nav>
+                <input type="checkbox" id="menu-toggle">
+                <label for="menu-toggle" class="hamburger">☰</label>
+                <ul>
+                    <li><a href="index.html">About Me</a></li>
+                    <li><a href="interests.html">Interests</a></li>
+                    <li><a href="goals.html">Goals</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="contacts.html">Contacts</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main id="wrapper">
+            <article class="contacts">
+                <section class="contacts-cover">
+                    <div class="contacts-img">
+                        <img src="image/contacts/contacts.jpg" alt="contacts-img">
+                    </div>
+                    <h3>Where can i <span>be contacted</span></h3>
+                    <p>Below are my contact details and social media accounts where you can connect with me and stay updated.
+                        Feel free to reach out, but for professional inquiries, collaborations, or opportunities, please contact
+                        me through email.
+                    </p>
+                    <div class="contacts-choices">
+                        <a href="#my-contacts" class="contacts-choice">Contact Information</a>
+                        <a href="#my-socials" class="socmeds-choice">Social Media</a>
+                        <a href="#my-form" class="form-choice">Send a Message</a>
+                    </div>
+                </section>
+                <section class="my-contacts" id="my-contacts">
+                    <h3 id="h3-contacts">Contacts</h3>
+                    <div class="contacts-career">
+                        <div class="contact-email">
+                            <img src="image/contacts/personal/email.png" alt="email-img">
+                            <h2>Email</h2>
+                            <p>kenthjarren2706@gmail.com</p>
                         </div>
-                        <h3>Where can i <span>be contacted</span></h3>
-                        <p>Below are my contact details and social media accounts where you can connect with me and stay updated.
-                            Feel free to reach out, but for professional inquiries, collaborations, or opportunities, please contact
-                            me through email.
-                        </p>
-                        <div class="contacts-choices">
-                            <a href="#my-contacts" class="contacts-choice">Contact Information</a>
-                            <a href="#my-socials" class="socmeds-choice">Social Media</a>
-                            <a href="#my-form" class="form-choice">Send a Message</a>
+                        <div class="contact-number">
+                            <img src="image/contacts/personal/phone-number.png" alt="number-img">
+                            <h2>Contact Number</h2>
+                            <p>09932961792</p>
                         </div>
-                    </section>
-                    <section class="my-contacts" id="my-contacts">
-                        <h3 id="h3-contacts">Contacts</h3>
-                        <div class="contacts-career">
-                            <div class="contact-email">
-                                <img src="image/contacts/personal/email.png" alt="email-img">
-                                <h2>Email</h2>
-                                <p>kenthjarren2706@gmail.com</p>
-                            </div>
-                            <div class="contact-number">
-                                <img src="image/contacts/personal/phone-number.png" alt="number-img">
-                                <h2>Contact Number</h2>
-                                <p>09932961792</p>
-                            </div>
+                    </div>
+                </section>
+                <section class="my-socials" id="my-socials">
+                    <h3 id="h3-socials">Social Media</h3>
+                    <div class="social-media">
+                        <div class="facebook">
+                            <img src="image/contacts/socmeds/facebook.png" alt="facebook-img">
+                            <h2>Facebook</h2>
+                            <p>Kenth Jarren S. Mariano</p>
                         </div>
-                    </section>
-                    <section class="my-socials" id="my-socials">
-                        <h3 id="h3-socials">Social Media</h3>
-                        <div class="social-media">
-                            <div class="facebook">
-                                <img src="image/contacts/socmeds/facebook.png" alt="facebook-img">
-                                <h2>Facebook</h2>
-                                <p>Kenth Jarren S. Mariano</p>
-                            </div>
-                            <div class="youtube">
-                                <img src="image/contacts/socmeds/youtube.png" alt="youtube-img">
-                                <h2>Youtube</h2>
-                                <p>@kenthye</p>
-                            </div>
-                            <div class="instagram">
-                                <img src="image/contacts/socmeds/instagram.png" alt="instagram-img">
-                                <h2>Instagram</h2>
-                                <p>@kenthmoto</p>
-                            </div>
+                        <div class="youtube">
+                            <img src="image/contacts/socmeds/youtube.png" alt="youtube-img">
+                            <h2>Youtube</h2>
+                            <p>@kenthye</p>
                         </div>
-                    </section>
-                    <section class="my-form" id="my-form">
-                        <h3 id="h3-form">Let's Talk</h3>
-                        <form class="contact-form" action="https://formsubmit.co/kenthjarren2706@gmail.com" method="POST">
-                            <input type="hidden" name="_subject" value="New message from your portfolio!">
-                            <input type="hidden" name="_captcha" value="false">
-                            <input type="hidden" name="_template" value="table">
-                            <input type="text" name="_honey" style="display:none">
-                            <div class="form-row">
-                                <div class="form-group">
-                                    <label for="name">Name</label>
-                                    <input type="text" id="name" name="name" placeholder="Kenth Jarren" required>
-                                </div>
-                                <div class="form-group">
-                                    <label for="email">Email</label>
-                                    <input type="email" id="email" name="email" placeholder="kenthjarren2706@gmail.com" required>
-                                </div>
+                        <div class="instagram">
+                            <img src="image/contacts/socmeds/instagram.png" alt="instagram-img">
+                            <h2>Instagram</h2>
+                            <p>@kenthmoto</p>
+                        </div>
+                    </div>
+                </section>
+                <section class="my-form" id="my-form">
+                    <h3 id="h3-form">Let's Talk</h3>
+                    <form class="contact-form" action="https://formsubmit.co/kenthjarren2706@gmail.com" method="POST">
+                        <input type="hidden" name="_subject" value="New message from your portfolio!">
+                        <input type="hidden" name="_captcha" value="false">
+                        <input type="hidden" name="_template" value="table">
+                        <input type="text" name="_honey" style="display:none">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" name="name" placeholder="Kenth Jarren" required>
                             </div>
                             <div class="form-group">
-                                <label for="subject">Subject</label>
-                                <input type="text" id="subject" name="subject" placeholder="What's this about?" required>
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" placeholder="kenthjarren2706@gmail.com" required>
                             </div>
-                            <div class="form-group">
-                                <label for="message">Message</label>
-                                <textarea id="message" name="message" rows="6" placeholder="Write your message here" required></textarea>
-                            </div>
-                            <button type="submit">Send Message</button>
-                        </form>
-                    </section>
-                </article>
-            </main>
-        </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" placeholder="What's this about?" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="6" placeholder="Write your message here" required></textarea>
+                        </div>
+                        <button type="submit">Send Message</button>
+                    </form>
+                </section>
+            </article>
+        </main>
     </body>
     <footer class="footer-side">
         <p>&copy; 2026 Kenth Mariano</p>

@@ -1569,44 +1569,6 @@ body {
         display: flex;
     }
 
-    .certification, .skills-career,
-    .skills-technical, .social-media, .form-row {
-        grid-template-columns: 1fr;
-    }
-
-    .contacts-career {
-        flex-direction: column;
-        gap: 0;
-    }
-    .contact-email, .contact-number {
-        width: 100%;
-    }
-
-    .interests-cover h3, .goals-cover h3,
-    .skills-cover h3, .contacts-cover h3 {
-        font-size: 26px;
-    }
-    
-    #h3-educ, #h3-cert, #h3-inter, #h3-goals,
-    #h3-skills, #h3-contacts, #h3-socials, #h3-form {
-        font-size: 20px;
-    }
-
-    .interests-personal-choice, .interests-career-choice,
-    .come-see, .skills-career-choice,
-    .skills-technical-choice, .contacts-choice,
-    .socmeds-choice, .form-choice {
-        padding: 14px 20px;
-    }
-
-    .contacts-choices {
-        gap: 25px;
-    }
-
-    .contact-form {
-        padding: 20px;
-    }
-
     .prof-img img {
         height: 270px;
     }
