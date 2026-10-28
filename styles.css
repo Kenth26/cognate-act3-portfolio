@@ -53,23 +53,21 @@ body {
     max-width: 90%;
     padding: 52.7px 30px;
     margin: 50px auto;
-    border-radius: 10px;
     border: 5px solid rgb(158, 158, 158);
+    border-radius: 10px;
 }
 
 .prof-img {
     float: right;
-    margin-right: 100px;
-    margin-top: 50px;
+    margin-right: 70px;
+    margin-top: 20px;
 }
 
 .prof-img img {
-    width: 230px;
-    height: 220px;
+    width: 270px;
+    height: 260px;
+    border: 5px solid rgb(81, 79, 79);
     border-radius: 20px;
-    border-style: solid;
-    border-color: rgb(81, 79, 79);
-    border-width: 5px;
     object-fit: cover;
 }
 
@@ -113,6 +111,12 @@ body {
     border-width: 5px;
 }
 
+.education {
+    background-color: rgba(0, 0, 0, 0.541);
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+}
+
 .my-education {
     width: 1260px;
     max-width: 90%;
@@ -131,28 +135,25 @@ body {
 .dyci {
     text-align: center;
     margin-top: 120px;
-    width: 50%;
-    height: 180px;
-    margin-left: 525px;
+    width: 55%;
+    margin-left: 460px;
 }
 
 .dyci-img {
     float: left;
     margin-top: 80px;
-    margin-left: 125px;
+    margin-left: 80px;
 }
 
 .dyci-img img {
-    width: 230px;
-    height: 220px;
+    width: 270px;
+    height: 260px;
+    border: 5px solid rgb(81, 79, 79);
     border-radius: 20px;
-    border-color: rgb(81, 79, 79);
-    border-style: solid;
-    border-width: 5.5px;
     object-fit: cover;
 }
 
-.dyci h3, .bmsi h3, .marcelo h3 {
+.dyci h3, .marcelo h3, .bmsi h3 {
     padding: 5px;
     background-color: black;
     border-radius: 20px;
@@ -162,50 +163,44 @@ body {
 .marcelo {
     text-align: center;
     margin-top: 160px;
-    width: 50%;
-    height: 180px;
+    width: 55%;
     margin-left: auto;
-    margin-right: 525px;
+    margin-right: 460px;
 }
 
 .marcelo-img {
     float: right;
-    margin-top: 140px;
-    margin-right: 125px;
+    margin-top: 120px;
+    margin-right: 80px;
 }
 
 .marcelo-img img {
-    width: 230px;
-    height: 220px;
+    width: 270px;
+    height: 260px;
+    border: 5px solid rgb(81, 79, 79);
     border-radius: 20px;
-    border-color: rgb(81, 79, 79);
-    border-style: solid;
-    border-width: 5.5px;
     object-fit: cover;
 }
 
 .bmsi {
     text-align: center;
     margin-top: 160px;
-    width: 50%;
-    height: 180px;
-    margin-left: 525px;
+    width: 55%;
+    margin-left: 460px;
     margin-bottom: 150px;
 }
 
 .bmsi-img {
     float: left;
-    margin-top: 145px;
-    margin-left: 125px;
+    margin-top: 130px;
+    margin-left: 80px;
 }
 
 .bmsi-img img {
-    width: 230px;
-    height: 220px;
+    width: 270px;
+    height: 260px;
+    border: 5px solid rgb(81, 79, 79);
     border-radius: 20px;
-    border-color: rgb(81, 79, 79);
-    border-style: solid;
-    border-width: 5.5px;
     object-fit: cover;
 }
 
@@ -234,23 +229,21 @@ body {
     padding: 8px;
 }
 
-.certification {
+.certificates {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
 
-.certification div {
+.certificates div {
     margin-top: 50px;
     text-align: center;
 }
 
-.certification div img {
+.certificates div img {
     width: 300px;
     height: 220px;
+    border: 5px solid rgb(81, 79, 79);
     border-radius: 20px;
-    border-color: rgb(81, 79, 79);
-    border-style: solid;
-    border-width: 5.5px;
     object-fit: cover;
 }
 
@@ -328,6 +321,13 @@ body {
     border-radius: 20px;
 }
 
+.personal-interests {
+    background-color: rgba(0, 0, 0, 0.541);
+    padding: 1px 0;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+}
+
 .my-interests-personal {
     width: 1260px;
     max-width: 90%;
@@ -346,24 +346,21 @@ body {
 .fitness {
     text-align: center;
     margin-top: 120px;
-    width: 50%;
-    height: 180px;
-    margin-left: 530px;
+    width: 55%;
+    margin-left: 460px;
 }
 
 .fitness-img {
     float: left;
     margin-top: 110px;
-    margin-left: 100px;
+    margin-left: 70px;
 }
 
 .fitness-img img {
     width: 300px;
     height: 220px;
+    border: 5px solid rgb(81, 79, 79);
     border-radius: 20px;
-    border-color: rgb(81, 79, 79);
-    border-style: solid;
-    border-width: 5.5px;
     object-fit: cover;
 }
 
@@ -381,197 +378,173 @@ body {
 .esports {
     text-align: center;
     margin-top: 160px;
-    width: 50%;
-    height: 180px;
+    width: 55%;
     margin-left: auto;
-    margin-right: 530px;
+    margin-right: 460px;
 }
 
 .esports-img {
     float: right;
-    margin-top: 175px;
-    margin-right: 100px;
+    margin-top: 160px;
+    margin-right: 70px;
 }
 
 .esports-img img {
     width: 300px;
     height: 220px;
+    border: 5px solid rgb(81, 79, 79);
     border-radius: 20px;
-    border-color: rgb(81, 79, 79);
-    border-style: solid;
-    border-width: 5.5px;
     object-fit: cover;
 }
 
 .lego {
     text-align: center;
     margin-top: 160px;
-    width: 50%;
-    height: 180px;
-    margin-left: 530px;
+    width: 55%;
+    margin-left: 460px;
 }
 
 .lego-img {
     float: left;
-    margin-top: 175px;
-    margin-left: 100px;
+    margin-top: 160px;
+    margin-left: 70px;
 }
 
 .lego-img img {
     width: 300px;
     height: 220px;
+    border: 5px solid rgb(81, 79, 79);
     border-radius: 20px;
-    border-color: rgb(81, 79, 79);
-    border-style: solid;
-    border-width: 5.5px;
     object-fit: cover;
 }
 
 .technologies {
     text-align: center;
     margin-top: 160px;
-    width: 50%;
-    height: 180px;
+    width: 55%;
     margin-left: auto;
-    margin-right: 530px;
+    margin-right: 460px;
 }
 
 .technologies-img {
     float: right;
-    margin-top: 175px;
-    margin-right: 100px;
+    margin-top: 160px;
+    margin-right: 70px;
 }
 
 .technologies-img img {
     width: 300px;
     height: 220px;
+    border: 5px solid rgb(81, 79, 79);
     border-radius: 20px;
-    border-color: rgb(81, 79, 79);
-    border-style: solid;
-    border-width: 5.5px;
     object-fit: cover;
 }
 
 .music {
     text-align: center;
     margin-top: 160px;
-    width: 50%;
-    height: 180px;
-    margin-left: 530px;
+    width: 55%;
+    margin-left: 460px;
 }
 
 .music-img {
     float: left;
-    margin-top: 175px;
-    margin-left: 100px;
+    margin-top: 160px;
+    margin-left: 70px;
 }
 
 .music-img img {
     width: 300px;
     height: 220px;
+    border: 5px solid rgb(81, 79, 79);
     border-radius: 20px;
-    border-color: rgb(81, 79, 79);
-    border-style: solid;
-    border-width: 5.5px;
     object-fit: cover;
 }
 
 .movie {
     text-align: center;
     margin-top: 160px;
-    width: 50%;
-    height: 180px;
+    width: 55%;
     margin-left: auto;
-    margin-right: 530px;
+    margin-right: 460px;
 }
 
 .movie-img {
     float: right;
-    margin-top: 175px;
-    margin-right: 100px;
+    margin-top: 160px;
+    margin-right: 70px;
 }
 
 .movie-img img {
     width: 300px;
     height: 220px;
+    border: 5px solid rgb(81, 79, 79);
     border-radius: 20px;
-    border-color: rgb(81, 79, 79);
-    border-style: solid;
-    border-width: 5.5px;
     object-fit: cover;
 }
 
 .sneakers {
     text-align: center;
     margin-top: 160px;
-    width: 50%;
-    height: 180px;
-    margin-left: 530px;
+    width: 55%;
+    margin-left: 460px;
 }
 
 .sneakers-img {
     float: left;
-    margin-top: 175px;
-    margin-left: 100px;
+    margin-top: 160px;
+    margin-left: 70px;
 }
 
 .sneakers-img img {
     width: 300px;
     height: 220px;
+    border: 5px solid rgb(81, 79, 79);
     border-radius: 20px;
-    border-color: rgb(81, 79, 79);
-    border-style: solid;
-    border-width: 5.5px;
     object-fit: cover;
 }
 
 .vehicle {
     text-align: center;
     margin-top: 160px;
-    width: 50%;
-    height: 180px;
+    width: 55%;
     margin-left: auto;
-    margin-right: 530px;
+    margin-right: 460px;
 }
 
 .vehicle-img {
     float: right;
-    margin-top: 175px;
-    margin-right: 100px;
+    margin-top: 160px;
+    margin-right: 70px;
 }
 
 .vehicle-img img {
     width: 300px;
     height: 220px;
+    border: 5px solid rgb(81, 79, 79);
     border-radius: 20px;
-    border-color: rgb(81, 79, 79);
-    border-style: solid;
-    border-width: 5.5px;
     object-fit: cover;
 }
 
 .coffee {
     text-align: center;
     margin-top: 160px;
-    width: 50%;
-    height: 180px;
-    margin-left: 530px;
+    width: 55%;
+    margin-left: 460px;
     margin-bottom: 150px;
 }
 
 .coffee-img {
     float: left;
-    margin-top: 175px;
-    margin-left: 100px;
+    margin-top: 160px;
+    margin-left: 70px;
 }
 
 .coffee-img img {
     width: 300px;
     height: 220px;
+    border: 5px solid rgb(81, 79, 79);
     border-radius: 20px;
-    border-color: rgb(81, 79, 79);
-    border-style: solid;
-    border-width: 5.5px;
     object-fit: cover;
 }
 
@@ -589,6 +562,12 @@ body {
     word-spacing: 1px;
 }
 
+.career-interests {
+    background-color: rgba(0, 0, 0, 0.541);
+    padding: 1px 0;
+    border-top: 1px solid;
+}
+
 .my-interests-career {
     width: 1260px;
     max-width: 90%;
@@ -598,25 +577,22 @@ body {
 .software {
     text-align: center;
     margin-top: 120px;
-    width: 50%;
-    height: 180px;
+    width: 55%;
     margin-left: auto;
-    margin-right: 530px;
+    margin-right: 460px;
 }
 
 .software-img {
     float: right;
     margin-top: 110px;
-    margin-right: 100px;
+    margin-right: 70px;
 }
 
 .software-img img {
     width: 300px;
     height: 220px;
+    border: 5px solid rgb(81, 79, 79);
     border-radius: 20px;
-    border-color: rgb(81, 79, 79);
-    border-style: solid;
-    border-width: 5.5px;
     object-fit: cover;
 }
 
@@ -632,99 +608,87 @@ body {
 .hardware {
     text-align: center;
     margin-top: 160px;
-    width: 50%;
-    height: 180px;
-    margin-left: 530px;
+    width: 55%;
+    margin-left: 460px;
 }
 
 .hardware-img {
     float: left;
-    margin-top: 175px;
-    margin-left: 100px;
+    margin-top: 160px;
+    margin-left: 70px;
 }
 
 .hardware-img img {
     width: 300px;
     height: 220px;
+    border: 5px solid rgb(81, 79, 79);
     border-radius: 20px;
-    border-color: rgb(81, 79, 79);
-    border-style: solid;
-    border-width: 5.5px;
     object-fit: cover;
 }
 
 .cybersecurity {
     text-align: center;
     margin-top: 160px;
-    width: 50%;
-    height: 180px;
+    width: 55%;
     margin-left: auto;
-    margin-right: 530px;
+    margin-right: 460px;
 }
 
 .cybersecurity-img {
     float: right;
-    margin-top: 175px;
-    margin-right: 100px;
+    margin-top: 160px;
+    margin-right: 70px;
 }
 
 .cybersecurity-img img {
     width: 300px;
     height: 220px;
+    border: 5px solid rgb(81, 79, 79);
     border-radius: 20px;
-    border-color: rgb(81, 79, 79);
-    border-style: solid;
-    border-width: 5.5px;
     object-fit: cover;
 }
 
 .daa {
     text-align: center;
     margin-top: 160px;
-    width: 50%;
-    height: 180px;
-    margin-left: 530px;
+    width: 55%;
+    margin-left: 460px;
 }
 
 .daa-img {
     float: left;
-    margin-top: 175px;
-    margin-left: 100px;
+    margin-top: 160px;
+    margin-left: 70px;
 }
 
 .daa-img img {
     width: 300px;
     height: 220px;
+    border: 5px solid rgb(81, 79, 79);
     border-radius: 20px;
-    border-color: rgb(81, 79, 79);
-    border-style: solid;
-    border-width: 5.5px;
     object-fit: cover;
 }
 
 .seminars {
     text-align: center;
     margin-top: 160px;
-    width: 50%;
-    height: 180px;
+    width: 55%;
     margin-left: auto;
-    margin-right: 530px;
+    margin-right: 460px;
     margin-bottom: 150px;
 }
 
 .seminars-img {
     float: right;
-    margin-top: 175px;
-    margin-right: 100px;
+    margin-top: 160px;
+    margin-right: 70px;
 }
 
 .seminars-img img {
     width: 300px;
     height: 220px;
+    border: 5px solid rgb(81, 79, 79);
     border-radius: 20px;
-    border-color: rgb(81, 79, 79);
-    border-style: solid;
-    border-width: 5.5px;
     object-fit: cover;
 }
 
@@ -762,9 +726,8 @@ body {
 .goals-img img {
     width: 300px;
     height: 220px;
+    border: 5px solid rgb(81, 79, 79);
     border-radius: 20px;
-    border-style: solid;
-    border-color: rgb(81, 79, 79);
     border-width: 5px;
 }
 
@@ -802,6 +765,12 @@ body {
     border-radius: 20px;
 }
 
+.life-goals {
+    background-color: rgba(0, 0, 0, 0.541);
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+}
+
 .my-goals {
     width: 1260px;
     max-width: 90%;
@@ -820,24 +789,21 @@ body {
 .travelling {
     text-align: center;
     margin-top: 120px;
-    width: 50%;
-    height: 180px;
-    margin-left: 530px;
+    width: 55%;
+    margin-left: 460px;
 }
 
 .travelling-img {
     float: left;
     margin-top: 110px;
-    margin-left: 100px;
+    margin-left: 70px;
 }
 
 .travelling-img img {
     width: 300px;
     height: 220px;
+    border: 5px solid rgb(81, 79, 79);
     border-radius: 20px;
-    border-color: rgb(81, 79, 79);
-    border-style: solid;
-    border-width: 5.5px;
     object-fit: cover;
 }
 
@@ -853,100 +819,88 @@ body {
 .stable-life {
     text-align: center;
     margin-top: 160px;
-    width: 50%;
-    height: 180px;
+    width: 55%;
     margin-left: auto;
-    margin-right: 530px;
+    margin-right: 460px;
 }
 
 .stable-img {
     float: right;
-    margin-top: 175px;
-    margin-right: 100px;
+    margin-top: 160px;
+    margin-right: 70px;
 }
 
 .stable-img img {
     width: 300px;
     height: 220px;
+    border: 5px solid rgb(81, 79, 79);
     border-radius: 20px;
-    border-color: rgb(81, 79, 79);
-    border-style: solid;
-    border-width: 5.5px;
     object-fit: cover;
 }
 
 .business {
     text-align: center;
     margin-top: 160px;
-    width: 50%;
-    height: 180px;
-    margin-left: 530px;
+    width: 55%;
+    margin-left: 460px;
 }
 
 .business-img {
     float: left;
-    margin-top: 175px;
-    margin-left: 100px;
+    margin-top: 160px;
+    margin-left: 70px;
 }
 
 .business-img img {
     width: 300px;
     height: 220px;
+    border: 5px solid rgb(81, 79, 79);
     border-radius: 20px;
-    border-color: rgb(81, 79, 79);
-    border-style: solid;
-    border-width: 5.5px;
     object-fit: cover;
 }
 
 .house {
     text-align: center;
     margin-top: 160px;
-    width: 50%;
-    height: 180px;
+    width: 55%;
     margin-left: auto;
-    margin-right: 530px;
+    margin-right: 460px;
 }
 
 .house-img {
     float: right;
-    margin-top: 175px;
-    margin-right: 100px;
+    margin-top: 160px;
+    margin-right: 70px;
 }
 
 .house-img img {
     width: 300px;
     height: 220px;
+    border: 5px solid rgb(81, 79, 79);
     border-radius: 20px;
-    border-color: rgb(81, 79, 79);
-    border-style: solid;
-    border-width: 5.5px;
     object-fit: cover;
 }
 
 .provider {
     text-align: center;
     margin-top: 160px;
-    margin-bottom: 150px;
-    width: 50%;
+    width: 55%;
     height: 180px;
-    margin-left: 530px;
-
+    margin-left: 460px;
+    margin-bottom: 150px;
 }
 
 .provider-img {
     float: left;
-    margin-top: 175px;
-    margin-left: 100px;
+    margin-top: 160px;
+    margin-left: 70px;
 }
 
 .provider-img img {
     width: 300px;
     height: 220px;
+    border: 5px solid rgb(81, 79, 79);
     border-radius: 20px;
-    border-color: rgb(81, 79, 79);
-    border-style: solid;
-    border-width: 5.5px;
     object-fit: cover;
 }
 
@@ -985,10 +939,8 @@ body {
 .skills-img img {
     width: 300px;
     height: 220px;
+    border: 5px solid rgb(81, 79, 79);
     border-radius: 20px;
-    border-style: solid;
-    border-color: rgb(81, 79, 79);
-    border-width: 5px;
     object-fit: cover;
 }
 
@@ -1065,10 +1017,8 @@ body {
 .skills-career div img {
     width: 270px;
     height: 250px;
+    border: 5.5px solid rgb(81, 79, 79);
     border-radius: 20px;
-    border-color: rgb(81, 79, 79);
-    border-style: solid;
-    border-width: 5.5px;
     object-fit: cover;
 }
 
@@ -1100,10 +1050,8 @@ body {
 .skills-technical div img {
     width: 270px;
     height: 250px;
+    border: 5.5px solid rgb(81, 79, 79);
     border-radius: 20px;
-    border-color: rgb(81, 79, 79);
-    border-style: solid;
-    border-width: 5.5px;
     object-fit: cover;
 }
 
@@ -1453,7 +1401,6 @@ body {
     background-color: black;
     color: white;
     padding: 8px 20px;
-    margin-top: 50px;
     border-top: 2px solid;
 }
 
