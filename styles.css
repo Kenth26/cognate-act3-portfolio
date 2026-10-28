@@ -325,7 +325,6 @@ body {
     background-color: rgba(0, 0, 0, 0.541);
     padding: 1px 0;
     border-top: 2px solid;
-    border-bottom: 2px solid;
 }
 
 .my-interests-personal {
@@ -531,7 +530,7 @@ body {
     margin-top: 160px;
     width: 55%;
     margin-left: 460px;
-    margin-bottom: 150px;
+    margin-bottom: 10px;
 }
 
 .coffee-img {
@@ -565,7 +564,6 @@ body {
 .career-interests {
     background-color: rgba(0, 0, 0, 0.541);
     padding: 1px 0;
-    border-top: 1px solid;
 }
 
 .my-interests-career {
@@ -768,7 +766,6 @@ body {
 .life-goals {
     background-color: rgba(0, 0, 0, 0.541);
     border-top: 2px solid;
-    border-bottom: 2px solid;
 }
 
 .my-goals {
@@ -989,6 +986,11 @@ body {
     border-radius: 20px;
 }
 
+.career-skills {
+    background-color: rgba(0, 0, 0, 0.541);
+    border-top: 2px solid;
+}
+
 .my-skills-career {
     width: 1260px;
     max-width: 90%;
@@ -1020,6 +1022,10 @@ body {
     border: 5.5px solid rgb(81, 79, 79);
     border-radius: 20px;
     object-fit: cover;
+}
+
+.technical-skills {
+    background-color: rgba(0, 0, 0, 0.541);
 }
 
 .my-skills-technical {
@@ -1139,6 +1145,11 @@ body {
     border-radius: 20px;
 }
 
+.contact-infos {
+    background-color: rgba(0, 0, 0, 0.541);
+    border-top: 2px solid;
+}
+
 .my-contacts {
     width: 1260px;
     max-width: 90%;
@@ -1213,6 +1224,11 @@ body {
     margin-top: 50px;
 }
 
+.social-medias {
+    background-color: rgba(0, 0, 0, 0.541);
+    border-bottom: 2px solid;
+}
+
 .my-socials {
     width: 1260px;
     max-width: 90%;
@@ -1230,23 +1246,20 @@ body {
 
 .social-media {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 50px;
 }
 
-.social-media div {
-    grid-column: span 2;
-}
-
-.social-media div:nth-child(3) {
-    grid-column: 2 / span 2;
+.social-media a {
+    text-decoration: none;
+    color: white;
 }
 
 .facebook {
     background-color: rgb(30, 29, 29);
     text-align: center;
     margin-top: 50px;
-    padding: 40px 120px;
+    padding: 40px 100px;
     border: 3px solid rgba(255, 255, 255, 0.596);
     border-radius: 20px;
 }
@@ -1273,7 +1286,7 @@ body {
     background-color: rgb(30, 29, 29);
     text-align: center;
     margin-top: 50px;
-    padding: 40px 120px;
+    padding: 45px 100px;
     border: 3px solid rgba(255, 255, 255, 0.596);
     border-radius: 20px;
 }
@@ -1299,7 +1312,7 @@ body {
     background-color: rgb(30, 29, 29);
     text-align: center;
     margin-top: 50px;
-    padding: 40px 120px;
+    padding: 40px 100px;
     border: 3px solid rgba(255, 255, 255, 0.596);
     border-radius: 20px;
 }
@@ -1318,6 +1331,32 @@ body {
 }
 
 .instagram p {
+    margin-top: 50px;
+}
+
+.discord {
+    background-color: rgb(30, 29, 29);
+    text-align: center;
+    margin-top: 50px;
+    padding: 40px 100px;
+    border: 3px solid rgba(255, 255, 255, 0.596);
+    border-radius: 20px;
+}
+
+.discord img {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border: 2px solid rgb(158, 158, 158);
+    border-radius: 90px;
+    border-width: 5px;
+}
+
+.discord h2 {
+    color: rgb(187, 182, 182);
+}
+
+.discord p {
     margin-top: 50px;
 }
 
