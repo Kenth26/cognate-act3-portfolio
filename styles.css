@@ -1829,8 +1829,13 @@ body {
         grid-template-columns: 1fr;
     }
 
-    .certificates div img, .skills-career div img, .skills-technical div img {
-        width: 300px;
+    .certificates div img {
+        width: 350px;
+        height: 250px;
+    }
+
+    .skills-career div img, .skills-technical div img {
+        width: 250px;
         height: 220px;
     }
 
