@@ -1830,8 +1830,8 @@ body {
     }
 
     .certificates div img, .skills-career div img, .skills-technical div img {
-        width: 300px;
-        height: 270px;
+        width: 220px;
+        height: 220px;
     }
 
     .contacts-career a {
