@@ -28,6 +28,8 @@ body {
     padding-top: 10px;
     padding-bottom: 5px;
     border-bottom: 2px solid;
+    position: sticky;
+    top: 0;
 }
 
 .content-nav nav ul {
@@ -76,7 +78,7 @@ body {
 }
 
 .about-me-cover span {
-    color: rgb(187, 182, 182);
+    color: rgb(223, 221, 221);
 }
 
 .about-me-cover h1 {
