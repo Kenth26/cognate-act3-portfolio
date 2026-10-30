@@ -1558,16 +1558,6 @@ body {
 }
 
 @media (max-width: 1200px) {
-    .overview-container {
-        flex-direction: row;
-    }
-
-    .kenth-overview img, .education-overview img, .certification-overview img {
-        display: block;
-        max-width: 100%;
-        margin: 30px auto 0;
-    }
-
     .about-me-cover, .interests-cover,
     .goals-cover, .skills-cover, .contacts-cover {
         padding: 40px 25px;
@@ -1600,6 +1590,16 @@ body {
     .come-see-goals, .skills-choices, .contacts-choices {
         justify-content: center;
         margin-left: auto;
+    }
+
+    .overview-container {
+        flex-direction: row;
+    }
+
+    .kenth-overview img, .education-overview img, .certification-overview img {
+        display: block;
+        max-width: 100%;
+        margin: 30px auto 0;
     }
 
     .dyci, .marcelo, .bmsi,
