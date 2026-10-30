@@ -222,6 +222,7 @@ body {
     text-align: justify;
     font-size: 13px;
     margin-left: 50px;
+    margin-top: -25px;
 }
 
 .son-description h2, .student-description h2, .dreamer-description h2 {
