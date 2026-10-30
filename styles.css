@@ -1553,45 +1553,51 @@ body {
     border-top: 2px solid;
 }
 
+#menu-toggle, .hamburger {
+    display: none;
+}
+
 /* ===== TABLETS: iPad 9/10 (both orientations), Lenovo Xiaoxin Pad portrait ===== */
 @media (max-width: 1200px) {
     .overview-container {
-        flex-wrap: wrap;
+        flex-direction: row;
     }
- 
+
     .kenth-overview img, .education-overview img, .certification-overview img {
+        display: block;
         max-width: 100%;
+        margin: 30px auto 0;
     }
- 
+
     .about-me-cover, .interests-cover,
     .goals-cover, .skills-cover, .contacts-cover {
         padding: 40px 25px;
         text-align: center;
     }
- 
+
     .prof-img, .interests-img,
     .goals-img, .skills-img, .contacts-img {
         float: none;
         margin: auto;
     }
- 
+
     .about-me-cover h1, .about-me-cover h3, .interests-cover h3,
     .goals-cover h3, .skills-cover h3, .contacts-cover h3 {
         margin-left: auto;
     }
- 
+
     .about-me-cover p, .interests-cover p,
     .goals-cover p, .skills-cover p, .contacts-cover p {
         width: 85%;
         margin: auto;
     }
- 
+
     .socials, .inter-choices,
     .come-see-goals, .skills-choices, .contacts-choices {
         justify-content: center;
         margin-left: auto;
     }
- 
+
     .dyci, .marcelo, .bmsi,
     .fitness, .esports, .lego,
     .technologies, .music, .movie,
@@ -1605,7 +1611,7 @@ body {
         margin-right: 0px;
         margin-left: 0px;
     }
- 
+
     .dyci-img, .marcelo-img, .bmsi-img,
     .fitness-img, .esports-img, .lego-img,
     .technologies-img, .music-img, .movie-img,
@@ -1620,50 +1626,45 @@ body {
         margin-top: 50px;
         margin-bottom: 50px;
     }
- 
+
     .certificates, .skills-career, .skills-technical {
         grid-template-columns: repeat(2, 1fr);
     }
- 
+
     .skills-technical div, .skills-technical div:nth-child(4), .skills-technical div:nth-child(5),
     .social-media div, .social-media div:nth-child(3) {
         grid-column: auto;
     }
- 
+
     .contacts-career {
         flex-direction: column;
         gap: 30px;
     }
- 
+
     .social-media {
         grid-template-columns: repeat(2, 1fr);
         gap: 20px;
     }
 }
- 
-#menu-toggle, .hamburger {
-    display: none;
-}
- 
+
 /* ===== TABLET PORTRAIT (iPad 9/10 upright, Lenovo upright) ===== */
 @media (max-width: 960px) {
     .who-i-am-container {
         flex-direction: column;
     }
- 
+
     .kenth-img {
         margin-left: 0;
     }
- 
+
     .kenth-description {
         margin: 0;
         font-size: 15px;
     }
 }
- 
+
 /* ===== PHONES (iPhone 11 = 414px wide) ===== */
 @media (max-width: 767px) {
-    /* hamburger nav */
     .hamburger {
         display: block;
         width: fit-content;
@@ -1673,7 +1674,7 @@ body {
         cursor: pointer;
         padding: 10px 20px;
     }
- 
+
     .content-nav nav ul {
         display: none;
         flex-direction: column;
@@ -1683,40 +1684,39 @@ body {
         padding: 10px;
         margin: 0;
     }
- 
+
     .content-nav nav ul li a {
         margin: 0;
         font-size: 18px;
     }
- 
+
     #menu-toggle:checked ~ ul {
         display: flex;
     }
- 
-    /* page covers */
+
     .about-me-cover, .interests-cover,
     .goals-cover, .skills-cover, .contacts-cover {
         padding: 30px 18px;
         margin: 25px auto;
     }
- 
+
     .about-me-cover h1 {
         font-size: 30px;
     }
- 
+
     .interests-cover h3, .goals-cover h3,
     .skills-cover h3, .contacts-cover h3 {
         font-size: 26px;
     }
- 
+
     .about-me-cover p, .interests-cover p,
     .goals-cover p, .skills-cover p, .contacts-cover p {
         width: 100%;
         margin-top: 15px;
         line-height: 27px;
-        text-align: left;
+        text-align: justify;
     }
- 
+
     .prof-img img, .interests-img img, .goals-img img,
     .skills-img img, .contacts-img img {
         width: 100%;
@@ -1724,62 +1724,58 @@ body {
         height: auto;
         aspect-ratio: 1 / 1;
     }
- 
+
     .socials {
         gap: 30px;
     }
- 
+
     .inter-choices, .skills-choices, .contacts-choices, .come-see-goals {
         flex-wrap: wrap;
         gap: 15px;
     }
- 
+
     .interests-personal-choice, .interests-career-choice,
     .skills-career-choice, .skills-technical-choice,
     .form-choice, .come-see {
         padding: 14px 20px;
     }
- 
-    /* section headings + spacing */
+
     #h3-over, #h3-kenth, #h3-educ, #h3-cert, #h3-inter,
     #h3-goals, #h3-skills, #h3-contacts, #h3-socials, #h3-form {
         font-size: 20px;
     }
- 
+
     .my-overview, .i-am-kenth, .my-education, .my-certification,
     .my-interests-personal, .my-interests-career, .my-goals,
     .my-skills-career, .my-skills-technical, .my-contacts,
     .my-socials, .my-form {
         margin: 40px auto;
     }
- 
-    /* overview cards: stack */
+
     .overview-container {
         flex-direction: column;
         margin-top: 30px;
         gap: 25px;
     }
- 
+
     .kenth-overview img, .education-overview img, .certification-overview img {
         width: 100%;
         height: auto;
         aspect-ratio: 16 / 11;
     }
- 
-    /* who i am */
+
     .who-i-am-container {
         margin-top: 30px;
         padding: 25px 18px;
     }
- 
+
     .kenth-img img {
         width: 100%;
         max-width: 250px;
         height: auto;
         aspect-ratio: 5 / 8;
     }
- 
-    /* alternating image/text sections (education, interests, goals) */
+
     .dyci, .marcelo, .bmsi,
     .fitness, .esports, .lego,
     .technologies, .music, .movie,
@@ -1790,7 +1786,7 @@ body {
         margin-bottom: 70px;
         height: auto;
     }
- 
+
     .dyci-img, .marcelo-img, .bmsi-img,
     .fitness-img, .esports-img, .lego-img,
     .technologies-img, .music-img, .movie-img,
@@ -1801,7 +1797,7 @@ body {
         margin-top: 30px;
         margin-bottom: 25px;
     }
- 
+
     .dyci-img img, .marcelo-img img, .bmsi-img img,
     .fitness-img img, .esports-img img, .lego-img img,
     .technologies-img img, .music-img img, .movie-img img,
@@ -1814,7 +1810,7 @@ body {
         height: auto;
         aspect-ratio: 15 / 11;
     }
- 
+
     .dyci p, .marcelo p, .bmsi p,
     .fitness p, .esports p, .lego p,
     .technologies p, .music p, .movie p,
@@ -1826,52 +1822,50 @@ body {
         line-height: 27px;
         text-align: left;
     }
- 
-    /* grids: one column */
+
     .certificates, .skills-career, .skills-technical {
         grid-template-columns: 1fr;
     }
- 
+
     .certificates div img, .skills-career div img, .skills-technical div img {
         width: 100%;
         max-width: 300px;
         height: auto;
         aspect-ratio: 15 / 11;
     }
- 
-    /* contacts */
+
     .contacts-career a {
         width: 100%;
     }
- 
+
     .contact-email, .contact-number {
         padding: 35px 20px;
         margin-top: 0;
         overflow-wrap: anywhere;
     }
- 
+
     .contact-email p, .contact-number p {
         margin-top: 20px;
     }
- 
+
     .social-media {
         grid-template-columns: 1fr;
         gap: 20px;
     }
- 
+
     .facebook, .youtube, .instagram, .discord {
         padding: 30px 20px;
         margin-top: 0;
     }
- 
+
     .facebook p, .youtube p, .instagram p, .discord p {
         margin-top: 20px;
     }
- 
+
     .contact-form {
         padding: 20px;
     }
- 
+
     .form-row {
         grid-template-columns: 1fr;
         gap: 0;
