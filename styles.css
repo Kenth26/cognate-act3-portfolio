@@ -1557,7 +1557,6 @@ body {
     display: none;
 }
 
-/* ===== TABLETS: iPad 9/10 (both orientations), Lenovo Xiaoxin Pad portrait ===== */
 @media (max-width: 1200px) {
     .overview-container {
         flex-direction: row;
@@ -1579,6 +1578,11 @@ body {
     .goals-img, .skills-img, .contacts-img {
         float: none;
         margin: auto;
+    }
+
+    .prof-img img {
+        width: 220px;
+        height: 220px;
     }
 
     .about-me-cover h1, .about-me-cover h3, .interests-cover h3,
@@ -1647,23 +1651,6 @@ body {
     }
 }
 
-/* ===== TABLET PORTRAIT (iPad 9/10 upright, Lenovo upright) ===== */
-@media (max-width: 960px) {
-    .who-i-am-container {
-        flex-direction: column;
-    }
-
-    .kenth-img {
-        margin-left: 0;
-    }
-
-    .kenth-description {
-        margin: 0;
-        font-size: 15px;
-    }
-}
-
-/* ===== PHONES (iPhone 11 = 414px wide) ===== */
 @media (max-width: 767px) {
     .hamburger {
         display: block;
@@ -1715,14 +1702,19 @@ body {
         margin-top: 15px;
         line-height: 27px;
         text-align: justify;
+        font-size: 13px;
     }
 
-    .prof-img img, .interests-img img, .goals-img img,
+    .prof-img img {
+        width: 150px;
+        height: 150px;
+        border-radius: 100px;
+    }
+
+    .interests-img img, .goals-img img,
     .skills-img img, .contacts-img img {
-        width: 100%;
-        max-width: 260px;
-        height: auto;
-        aspect-ratio: 1 / 1;
+        width: 250px;
+        height: 250px;
     }
 
     .socials {
@@ -1759,21 +1751,32 @@ body {
     }
 
     .kenth-overview img, .education-overview img, .certification-overview img {
-        width: 100%;
-        height: auto;
-        aspect-ratio: 16 / 11;
+        width: 400px;
+        height: 250px;
     }
 
     .who-i-am-container {
+        flex-direction: column;
         margin-top: 30px;
         padding: 25px 18px;
     }
 
+    .kenth-img {
+        margin-left: 0;
+    }
+
     .kenth-img img {
-        width: 100%;
-        max-width: 250px;
-        height: auto;
-        aspect-ratio: 5 / 8;
+        width: 250px;
+        height: 280px;
+    }
+
+    .kenth-description {
+        margin: 0;
+        font-size: 15px;
+    }
+
+    .kenth-description p {
+        font-size: 13px;
     }
 
     .dyci, .marcelo, .bmsi,
@@ -1805,10 +1808,8 @@ body {
     .software-img img, .hardware-img img, .cybersecurity-img img,
     .daa-img img, .seminars-img img, .travelling-img img,
     .stable-img img, .business-img img, .house-img img, .provider-img img {
-        width: 100%;
-        max-width: 300px;
-        height: auto;
-        aspect-ratio: 15 / 11;
+        width: 220px;
+        height: 220px;
     }
 
     .dyci p, .marcelo p, .bmsi p,
@@ -1820,18 +1821,22 @@ body {
     .stable-life p, .business p, .house p, .provider p {
         width: 100%;
         line-height: 27px;
-        text-align: left;
+        text-align: justify;
+        font-size: 13px;
     }
 
     .certificates, .skills-career, .skills-technical {
         grid-template-columns: 1fr;
     }
 
-    .certificates div img, .skills-career div img, .skills-technical div img {
-        width: 100%;
-        max-width: 300px;
-        height: auto;
-        aspect-ratio: 15 / 11;
+    .certificates div img {
+        width: 420px;
+        height: 300px;
+    }
+
+    .skills-career div img, .skills-technical div img {
+        width: 400px;
+        height: 300px;
     }
 
     .contacts-career a {
