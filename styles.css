@@ -111,6 +111,128 @@ body {
     border-width: 5px;
 }
 
+.overview {
+    background-color: rgba(0, 0, 0, 0.541);
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+}
+
+.my-overview {
+    width: 1260px;
+    max-width: 90%;
+    margin: 70px auto;
+}
+
+#h3-over {
+    text-align: center;
+    font-size: 25px;
+    background-color: black;
+    border: 2px solid rgba(255, 255, 255, 0.596);
+    border-radius: 20px;
+    padding: 8px;
+}
+
+.overview-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    gap: 35px;
+}
+
+.kenth-overview, .education-overview, .certification-overview {
+    text-align: center;
+    background-color: rgb(30, 29, 29);
+    padding: 35px 25px;
+    border: 3px solid rgba(255, 255, 255, 0.596);
+    border-radius: 20px;
+}
+
+.kenth-overview img, .education-overview img, .certification-overview img {
+    width: 320px;
+    height: 220px;
+    object-fit: cover;
+    border: 5px solid rgb(81, 79, 79);
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+.kenth-overview h2, .education-overview h2, .certification-overview h2 {
+    background-color: black;
+    border: 2px solid rgba(255, 255, 255, 0.596);
+    border-radius: 20px;
+    width: 70%;
+    margin: auto;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.kenth-overview a, .education-overview a, .certification-overview a {
+    display: inline-block;
+    margin-top: 30px;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 10px 40px;
+    border: 2px solid rgb(81, 79, 79);
+    border-radius: 20px;
+}
+
+.i-am-kenth {
+    width: 1260px;
+    max-width: 90%;
+    margin: 70px auto;
+}
+
+#h3-kenth {
+    text-align: center;
+    font-size: 25px;
+    background-color: black;
+    border: 2px solid rgba(255, 255, 255, 0.596);
+    border-radius: 20px;
+    padding: 8px;
+}
+
+.who-i-am-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    gap: 30px;
+    background-color: rgb(30, 29, 29);
+    padding: 40px 30px;
+    border: 3px solid rgba(255, 255, 255, 0.596);
+    border-radius: 20px;
+}
+
+.kenth-img {
+    margin-left: 10px;
+}
+
+.kenth-img img {
+    width: 250px;
+    height: 400px;
+    object-fit: cover;
+    border: 5px solid rgb(81, 79, 79);
+    border-radius: 20px;
+}
+
+.kenth-description {
+    text-align: justify;
+    font-size: 13px;
+    margin-left: 50px;
+}
+
+.son-description h2, .student-description h2, .dreamer-description h2 {
+    color: rgb(187, 182, 182);
+}
+
+.son-description p, .student-description p, .dreamer-description p {
+    width: 90%;
+    margin: auto;
+    line-height: 20px;
+    word-spacing: 1px;
+}
+
 .education {
     background-color: rgba(0, 0, 0, 0.541);
     border-top: 2px solid;
@@ -1115,26 +1237,6 @@ body {
     margin-top: 25px;
 }
 
-.contacts-choice {
-    background-color: rgb(30, 29, 29);
-    padding: 20px 10px;
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-    border: 2px solid rgb(158, 158, 158);
-    border-radius: 20px;
-}
-
-.socmeds-choice {
-    background-color: rgb(30, 29, 29);
-    padding: 20px 20px;
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-    border: 2px solid rgb(158, 158, 158);
-    border-radius: 20px;
-}
-
 .form-choice {
     background-color: rgb(30, 29, 29);
     padding: 20px 15px;
@@ -1170,6 +1272,11 @@ body {
     justify-content: center;
     align-items: center;
     gap: 200px;
+}
+
+.contacts-career a {
+    text-decoration: none;
+    color: white;
 }
 
 .contact-email {
