@@ -1119,6 +1119,7 @@ body {
 .career-skills {
     background-color: rgba(0, 0, 0, 0.541);
     border-top: 2px solid;
+    border-bottom: 2px solid;
 }
 
 .my-skills-career {
@@ -1152,10 +1153,6 @@ body {
     border: 5.5px solid rgb(81, 79, 79);
     border-radius: 20px;
     object-fit: cover;
-}
-
-.technical-skills {
-    background-color: rgba(0, 0, 0, 0.541);
 }
 
 .my-skills-technical {
